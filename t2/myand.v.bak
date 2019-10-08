@@ -1,0 +1,21 @@
+module myand(a,b,c,x,y)
+	input [7:0] a,b;
+	input x,y;
+	output [7:0] c;
+	begin 
+		case(x)
+		1:
+			begin
+				c = a;
+			end
+		endcase
+	end
+	begin 
+		case(y)
+		1:
+			begin
+				c = b;
+			end
+		endcase
+	end
+endmodule

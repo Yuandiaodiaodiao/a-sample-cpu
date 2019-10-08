@@ -1,0 +1,118 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Full Version"
+
+// DATE "09/30/2019 05:38:13"
+
+// 
+// Device: Altera EP4CE6E22C8 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module cpu (
+	pin_name1,
+	pin_name2,
+	pin_name3);
+input 	pin_name1;
+input 	pin_name2;
+output 	pin_name3;
+
+// Design Ports Information
+// pin_name3	=>  Location: PIN_10,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// pin_name1	=>  Location: PIN_28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// pin_name2	=>  Location: PIN_7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("cpu_min_1200mv_0c_v_fast.sdo");
+// synopsys translate_on
+
+wire \pin_name3~output_o ;
+wire \pin_name1~input_o ;
+wire \pin_name2~input_o ;
+wire \pin_name3~0_combout ;
+
+
+// Location: IOOBUF_X0_Y18_N16
+cycloneive_io_obuf \pin_name3~output (
+	.i(\pin_name3~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\pin_name3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \pin_name3~output .bus_hold = "false";
+defparam \pin_name3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y9_N8
+cycloneive_io_ibuf \pin_name1~input (
+	.i(pin_name1),
+	.ibar(gnd),
+	.o(\pin_name1~input_o ));
+// synopsys translate_off
+defparam \pin_name1~input .bus_hold = "false";
+defparam \pin_name1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y21_N8
+cycloneive_io_ibuf \pin_name2~input (
+	.i(pin_name2),
+	.ibar(gnd),
+	.o(\pin_name2~input_o ));
+// synopsys translate_off
+defparam \pin_name2~input .bus_hold = "false";
+defparam \pin_name2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y8_N8
+cycloneive_lcell_comb \pin_name3~0 (
+// Equation(s):
+// \pin_name3~0_combout  = (\pin_name1~input_o  & \pin_name2~input_o )
+
+	.dataa(gnd),
+	.datab(\pin_name1~input_o ),
+	.datac(\pin_name2~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\pin_name3~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \pin_name3~0 .lut_mask = 16'hC0C0;
+defparam \pin_name3~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign pin_name3 = \pin_name3~output_o ;
+
+endmodule

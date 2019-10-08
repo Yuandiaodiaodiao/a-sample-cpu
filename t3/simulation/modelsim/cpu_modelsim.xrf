@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/GitHub/quartus/t3/simulation/modelsim/cpu.vt
+source_file = 1, D:/GitHub/quartus/t3/cpu.v
+source_file = 1, D:/GitHub/quartus/t3/db/cpu.cbx.xml
+design_name = cpu
+instance = comp, \pin_name3~output , pin_name3~output, cpu, 1
+instance = comp, \pin_name1~input , pin_name1~input, cpu, 1
+instance = comp, \pin_name2~input , pin_name2~input, cpu, 1
+instance = comp, \pin_name3~0 , pin_name3~0, cpu, 1

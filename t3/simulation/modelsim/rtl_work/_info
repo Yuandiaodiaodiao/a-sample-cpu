@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\GitHub\quartus\t3\simulation\modelsim
+vcpu
+IFaQZGlb4gLG?_QL=e8dkQ1
+Vz]LFk^AzcL1^]_THU>aTe3
+Z1 dD:\GitHub\quartus\t3\simulation\modelsim
+w1569792230
+8D:/GitHub/quartus/t3/cpu.v
+FD:/GitHub/quartus/t3/cpu.v
+L0 19
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 :>`H4`6[iHXAI<FAAUXZJ0
+!s85 0
+!s108 1569793819.974000
+!s107 D:/GitHub/quartus/t3/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitHub/quartus/t3|D:/GitHub/quartus/t3/cpu.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/GitHub/quartus/t3 -O0
+vcpu_vlg_tst
+!i10b 1
+!s100 ;V8<o<ZT_j8:_c6lG2X;l1
+IT>XPhCnRhS5YjEl?eE[n31
+Vc;PM_;<W8?J]Cd:FeEXM92
+R1
+w1569793612
+8D:/GitHub/quartus/t3/simulation/modelsim/cpu.vt
+FD:/GitHub/quartus/t3/simulation/modelsim/cpu.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1569793820.106000
+!s107 D:/GitHub/quartus/t3/simulation/modelsim/cpu.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitHub/quartus/t3/simulation/modelsim|D:/GitHub/quartus/t3/simulation/modelsim/cpu.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/GitHub/quartus/t3/simulation/modelsim -O0
