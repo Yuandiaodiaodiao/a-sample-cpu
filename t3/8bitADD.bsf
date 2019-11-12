@@ -1,0 +1,56 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 152 64 240 168)
+	(text "8bitADD" (rect 0 0 33 8)(font "Consolas" (font_size 5)))
+	(text "inst" (rect 0 96 18 104)(font "Consolas" (font_size 5)))
+	(port
+		(pt 0 24)
+		(input)
+		(text "A[7..0]" (rect 0 0 24 7)(font "Arial" (font_size 5)))
+		(text "A[7..0]" (rect 16 16 40 23)(font "Arial" (font_size 5)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "B[7..0]" (rect 0 0 24 7)(font "Arial" (font_size 5)))
+		(text "B[7..0]" (rect 16 64 40 71)(font "Arial" (font_size 5)))
+		(line (pt 0 72)(pt 16 72)(line_width 3))
+	)
+	(port
+		(pt 88 48)
+		(output)
+		(text "F[7..0]" (rect -8 0 15 7)(font "Arial" (font_size 5)))
+		(text "F[7..0]" (rect 48 40 71 47)(font "Arial" (font_size 5)))
+		(line (pt 88 48)(pt 72 48)(line_width 3))
+	)
+	(drawing
+		(line (pt 16 40)(pt 24 48))
+		(line (pt 16 56)(pt 24 48))
+		(line (pt 16 56)(pt 16 88))
+		(line (pt 16 40)(pt 16 8))
+		(line (pt 16 8)(pt 72 24))
+		(line (pt 72 24)(pt 72 72))
+		(line (pt 16 88)(pt 72 72))
+	)
+)

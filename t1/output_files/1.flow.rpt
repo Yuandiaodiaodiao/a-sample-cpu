@@ -1,5 +1,5 @@
 Flow report for 1
-Tue Sep 24 20:18:59 2019
+Wed Oct 23 20:38:43 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Sep 24 20:18:59 2019       ;
+; Flow Status                        ; Successful - Wed Oct 23 20:38:43 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; 1                                           ;
 ; Top-level Entity Name              ; 1                                           ;
@@ -102,7 +102,9 @@ applicable agreement for further details.
 ; Assembler                 ; 00:00:02     ; 1.0                     ; 4587 MB             ; 00:00:01                           ;
 ; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4658 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4562 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:17     ; --                      ; --                  ; 00:00:15                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4563 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4563 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -116,6 +118,8 @@ applicable agreement for further details.
 ; Assembler                 ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -127,6 +131,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off 1 -c 1
 quartus_asm --read_settings_files=off --write_settings_files=off 1 -c 1
 quartus_sta 1 -c 1
 quartus_eda --read_settings_files=off --write_settings_files=off 1 -c 1
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog 1 -c 1 --vector_source=D:/GitHub/quartus/t1/Waveform.vwf --testbench_file=D:/GitHub/quartus/t1/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/GitHub/quartus/t1/simulation/qsim/ 1 -c 1
 
 
 

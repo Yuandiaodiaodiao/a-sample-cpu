@@ -1,0 +1,15 @@
+module chooser2(pick1,pick2,wdpick3,a,b,clk);
+	input [2:0] pick1;
+	input [2:0] pick2;
+	input [2:0] wdpick3;
+	output a;
+	output b;
+	input clk;
+
+
+	always @(posedge clk)
+		begin
+		
+		end
+endmodule 
+				

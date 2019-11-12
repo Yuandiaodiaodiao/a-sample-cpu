@@ -1,0 +1,21 @@
+module regheap(wd,,wdpick,data,pick1,pick2,CLK,R1,R2);
+	input wd,CLK;
+	input [2:0] wdpick;
+	input [7:0] data;
+	input [2:0] pick1;
+	input [2:0] pick2;
+	output [7:0] R1;
+	output [7:0] R2;
+	reg [7:0] R1;
+	reg [7:0] R2;
+	reg [7:0] R[7:0];
+	always @(posedge wd)
+		begin
+			R[wdpick] = data;
+		end
+	always @(posedge CLK)
+		begin
+			R1 = R[pick1];
+			R2 = R[pick2];
+		end
+endmodule

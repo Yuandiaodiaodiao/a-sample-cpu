@@ -1,0 +1,16 @@
+module diffCheck(pick1,pick2,wdpick3,wBack,a,b,clk);
+	input [2:0] pick1;
+	input [2:0] pick2;
+	input [2:0] wdpick3;
+	input wBack;
+	output a;
+	output b;
+	input clk;
+
+
+	always @(posedge clk)
+		begin
+		
+		end
+endmodule 
+				

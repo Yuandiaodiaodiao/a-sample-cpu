@@ -1,0 +1,11 @@
+module DDreg(CLK,CLR,data,ans);
+	input CLK,CLR;
+	input [15:0] data;
+	output [15:0] ans;
+	reg [15:0] ans;
+	always @(posedge CLK or posedge CLR)
+		if(CLR)
+			ans = 0;
+		else if(CLK)
+			ans = data;
+endmodule 

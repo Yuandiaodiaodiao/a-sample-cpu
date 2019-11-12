@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Tue Nov 12 21:39:48 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : cpu
+Top-level Entity Name : cpu
+Family : Cyclone IV E
+Total logic elements : 2,187
+    Total combinational functions : 1,674
+    Dedicated logic registers : 1,168
+Total registers : 1168
+Total pins : 13
+Total virtual pins : 136
+Total memory bits : 22,784
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

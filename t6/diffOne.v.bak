@@ -1,0 +1,15 @@
+module diffOne(regIdA,regIdB,regDataA,regDataB,out,clk);
+	input [2:0] regIdA;
+	input [2:0] regIdB;
+	input [7:0] regDataA;
+	input [7..0] regDataB;
+	input clk;
+	output [7..0] out;
+
+
+	always @(posedge clk)
+		begin
+		
+		end
+endmodule 
+				

@@ -1,0 +1,277 @@
+set_global_assignment -name TOP_LEVEL_ENTITY cpu
+
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "D:/GitHub/quartus/t3/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[15]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[14]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[13]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[12]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[11]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[10]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[9]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[8]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to OA[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to OB[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to OC[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to PCOUT[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ALUOUT[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD3PICK[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD3PICK[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD3PICK[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD4PICK[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD4PICK[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD4PICK[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD5PICK[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD5PICK[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DD5PICK[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to DIRW[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKA[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKA[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKA[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKB[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKB[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to PICKB[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramdata[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to ramq[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHA[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to REGHB[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to wbDataOUT[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to diffA[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to diffA[0]
+set_instance_assignment -name VIRTUAL_PIN ON -to diffB[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to diffB[0]
+set_global_assignment -name HEX_FILE romM16bit32.hex
+set_global_assignment -name HEX_FILE romCode.hex
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform2.vwf
+set_global_assignment -name BDF_FILE backup.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_location_assignment PIN_113 -to clock
+set_location_assignment PIN_52 -to clr
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_clk -to clock -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[0] -to clr -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_RAM_BLOCK_TYPE=AUTO" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_INFO=805334528" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_POWER_UP_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ATTRIBUTE_MEM_MODE=OFF" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_USE_GENERATED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_BITS=11" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_BUFFER_FULL_STOP=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_CURRENT_RESOURCE_WIDTH=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_IN_ENABLED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1," -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_location_assignment PIN_54 -to RGBOUT[7]
+set_location_assignment PIN_59 -to RGBOUT[6]
+set_location_assignment PIN_50 -to RGBOUT[5]
+set_location_assignment PIN_51 -to RGBOUT[4]
+set_location_assignment PIN_46 -to RGBOUT[3]
+set_location_assignment PIN_49 -to RGBOUT[2]
+set_location_assignment PIN_43 -to RGBOUT[1]
+set_location_assignment PIN_44 -to RGBOUT[0]
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name BDF_FILE 74138b.bdf
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE lpm_constantor.qip
+set_global_assignment -name BDF_FILE hardCode.bdf
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[15]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[14]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[13]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[12]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[11]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[10]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[9]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[8]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[7]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[6]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[5]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[4]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[3]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[2]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[1]
+set_instance_assignment -name VIRTUAL_PIN ON -to microCode[0]
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK=0000000000000000000000000" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK_LENGTH=25" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SEGMENT_SIZE=256" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SAMPLE_DEPTH=256" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[0] -to "74273b:pcregester|12" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[1] -to "74273b:pcregester|13" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[2] -to "74273b:pcregester|14" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[3] -to "74273b:pcregester|15" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[4] -to "74273b:pcregester|16" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[5] -to "74273b:pcregester|17" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[6] -to "74273b:pcregester|18" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[7] -to "74273b:pcregester|19" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[8] -to clr -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[9] -to "regheap:inst10|R1[0]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[10] -to "regheap:inst10|R1[1]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[11] -to "regheap:inst10|R1[2]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[12] -to "regheap:inst10|R1[3]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[13] -to "regheap:inst10|R1[4]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[14] -to "regheap:inst10|R1[5]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[15] -to "regheap:inst10|R1[6]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[16] -to "regheap:inst10|R1[7]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[17] -to "regheap:inst10|R2[0]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[18] -to "regheap:inst10|R2[1]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[19] -to "regheap:inst10|R2[2]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[20] -to "regheap:inst10|R2[3]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[21] -to "regheap:inst10|R2[4]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[22] -to "regheap:inst10|R2[5]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[23] -to "regheap:inst10|R2[6]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[24] -to "regheap:inst10|R2[7]" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[25] -to "regheap:inst10|R~10" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[26] -to "regheap:inst10|R~11" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[27] -to "regheap:inst10|R~12" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[28] -to "regheap:inst10|R~13" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[29] -to "regheap:inst10|R~14" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[30] -to "regheap:inst10|R~15" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[31] -to "regheap:inst10|R~16" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[32] -to "regheap:inst10|R~17" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[33] -to "regheap:inst10|R~18" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[34] -to "regheap:inst10|R~19" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[35] -to "regheap:inst10|R~20" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[36] -to "regheap:inst10|R~21" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[37] -to "regheap:inst10|R~22" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[38] -to "regheap:inst10|R~23" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[39] -to "regheap:inst10|R~24" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[40] -to "regheap:inst10|R~25" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[41] -to "regheap:inst10|R~26" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[42] -to "regheap:inst10|R~27" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[43] -to "regheap:inst10|R~28" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[44] -to "regheap:inst10|R~29" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[45] -to "regheap:inst10|R~30" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[46] -to "regheap:inst10|R~31" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[47] -to "regheap:inst10|R~32" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[48] -to "regheap:inst10|R~33" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[49] -to "regheap:inst10|R~34" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[50] -to "regheap:inst10|R~35" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[51] -to "regheap:inst10|R~36" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[52] -to "regheap:inst10|R~37" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[53] -to "regheap:inst10|R~38" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[54] -to "regheap:inst10|R~39" -section_id auto_signaltap_0
+set_global_assignment -name QIP_FILE lpm_constantnor.qip
+set_global_assignment -name QIP_FILE lpm_constantxor.qip
+set_global_assignment -name QIP_FILE lpm_constantslt.qip
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[55] -to "regheap:inst10|R~40" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[56] -to "regheap:inst10|R~41" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[57] -to "regheap:inst10|R~42" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[58] -to "regheap:inst10|R~43" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[59] -to "regheap:inst10|R~44" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[60] -to "regheap:inst10|R~45" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[61] -to "regheap:inst10|R~46" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[62] -to "regheap:inst10|R~47" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[63] -to "regheap:inst10|R~8" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[64] -to "regheap:inst10|R~9" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_DATA_BITS=65" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=18048" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_HIWORD=32649" -section_id auto_signaltap_0
+set_global_assignment -name VERILOG_FILE clean.v
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

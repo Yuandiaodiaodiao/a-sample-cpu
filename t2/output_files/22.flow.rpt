@@ -1,5 +1,5 @@
 Flow report for 22
-Sun Sep 29 20:31:01 2019
+Wed Oct 23 20:37:19 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Sep 29 20:31:01 2019       ;
+; Flow Status                        ; Successful - Wed Oct 23 20:37:19 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; 22                                          ;
 ; Top-level Entity Name              ; 22                                          ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 334 / 6,272 ( 5 % )                         ;
-;     Total combinational functions  ; 307 / 6,272 ( 5 % )                         ;
+; Total logic elements               ; 336 / 6,272 ( 5 % )                         ;
+;     Total combinational functions  ; 306 / 6,272 ( 5 % )                         ;
 ;     Dedicated logic registers      ; 198 / 6,272 ( 3 % )                         ;
 ; Total registers                    ; 198                                         ;
 ; Total pins                         ; 34 / 92 ( 37 % )                            ;
@@ -64,39 +64,41 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/29/2019 20:30:38 ;
+; Start date & time ; 10/23/2019 20:35:27 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 22                  ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 207273073142657.156976023709100 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
-; IP_TOOL_NAME                        ; RAM: 1-PORT                     ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; RAM: 1-PORT                     ; --            ; --          ; --             ;
-; IP_TOOL_NAME                        ; ROM: 1-PORT                     ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.1                            ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.1                            ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.1                            ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; Ram1.cmp                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; rrr.bsf                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; rrr.cmp                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; ooo.bsf                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; ooo.cmp                         ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
-+-------------------------------------+---------------------------------+---------------+-------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 207273073142657.157183412714224       ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR       ; D:/GitHub/quartus/t2/simulation/qsim/ ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                  ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; Ram1.cmp                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; rrr.bsf                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; rrr.cmp                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; ooo.bsf                               ; --            ; --          ; --             ;
+; MISC_FILE                           ; ooo.cmp                               ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -104,12 +106,17 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 4687 MB             ; 00:00:04                           ;
-; Fitter                    ; 00:00:07     ; 1.3                     ; 5186 MB             ; 00:00:07                           ;
+; Analysis & Synthesis      ; 00:00:05     ; 1.0                     ; 4688 MB             ; 00:00:05                           ;
+; Fitter                    ; 00:00:07     ; 1.3                     ; 5190 MB             ; 00:00:08                           ;
 ; Assembler                 ; 00:00:01     ; 1.0                     ; 4579 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4673 MB             ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4562 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:17     ; --                      ; --                  ; 00:00:16                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4669 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4546 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4554 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4554 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4566 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4558 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4570 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:24                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -123,6 +130,11 @@ applicable agreement for further details.
 ; Assembler                 ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Surface-Pro      ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -134,6 +146,11 @@ quartus_fit --read_settings_files=off --write_settings_files=off 22 -c 22
 quartus_asm --read_settings_files=off --write_settings_files=off 22 -c 22
 quartus_sta 22 -c 22
 quartus_eda --read_settings_files=off --write_settings_files=off 22 -c 22
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog 22 -c 22 --vector_source=D:/GitHub/quartus/t2/Waveform.vwf --testbench_file=D:/GitHub/quartus/t2/simulation/modelsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog 22 -c 22 --vector_source=D:/GitHub/quartus/t2/Waveform.vwf --testbench_file=D:/GitHub/quartus/t2/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/GitHub/quartus/t2/simulation/qsim/ 22 -c 22
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog 22 -c 22 --vector_source=D:/GitHub/quartus/t2/Waveform.vwf --testbench_file=D:/GitHub/quartus/t2/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/GitHub/quartus/t2/simulation/qsim/ 22 -c 22
 
 
 

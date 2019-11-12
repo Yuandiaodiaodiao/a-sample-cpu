@@ -1,5 +1,5 @@
 Analysis & Synthesis report for 22
-Sun Sep 29 20:30:42 2019
+Wed Oct 23 20:35:32 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -54,13 +54,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Sep 29 20:30:42 2019       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 23 20:35:32 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; 22                                          ;
 ; Top-level Entity Name              ; 22                                          ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 347                                         ;
-;     Total combinational functions  ; 307                                         ;
+; Total logic elements               ; 346                                         ;
+;     Total combinational functions  ; 306                                         ;
 ;     Dedicated logic registers      ; 198                                         ;
 ; Total registers                    ; 198                                         ;
 ; Total pins                         ; 34                                          ;
@@ -167,11 +167,12 @@ applicable agreement for further details.
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -218,16 +219,16 @@ applicable agreement for further details.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimated Total logic elements              ; 347                      ;
+; Estimated Total logic elements              ; 346                      ;
 ;                                             ;                          ;
-; Total combinational functions               ; 307                      ;
+; Total combinational functions               ; 306                      ;
 ; Logic element usage by number of LUT inputs ;                          ;
 ;     -- 4 input functions                    ; 153                      ;
-;     -- 3 input functions                    ; 61                       ;
-;     -- <=2 input functions                  ; 93                       ;
+;     -- 3 input functions                    ; 59                       ;
+;     -- <=2 input functions                  ; 94                       ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 271                      ;
+;     -- normal mode                          ; 270                      ;
 ;     -- arithmetic mode                      ; 36                       ;
 ;                                             ;                          ;
 ; Total registers                             ; 198                      ;
@@ -239,7 +240,7 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0                        ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 208                      ;
-; Total fan-out                               ; 2070                     ;
+; Total fan-out                               ; 2066                     ;
 ; Average fan-out                             ; 3.46                     ;
 +---------------------------------------------+--------------------------+
 
@@ -249,7 +250,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                          ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                        ; Library Name ;
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |22                                                                 ; 307 (4)           ; 198 (0)      ; 4096        ; 0            ; 0       ; 0         ; 34   ; 0            ; |22                                                                                                                                                        ; work         ;
+; |22                                                                 ; 306 (4)           ; 198 (0)      ; 4096        ; 0            ; 0       ; 0         ; 34   ; 0            ; |22                                                                                                                                                        ; work         ;
 ;    |74273b:MAR|                                                     ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|74273b:MAR                                                                                                                                             ; work         ;
 ;    |74374b:R|                                                       ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|74374b:R                                                                                                                                               ; work         ;
 ;    |PC:inst9|                                                       ; 10 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|PC:inst9                                                                                                                                               ; work         ;
@@ -271,8 +272,8 @@ applicable agreement for further details.
 ;             |altsyncram_pvr2:altsyncram1|                           ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|rrr:inst1|altsyncram:altsyncram_component|altsyncram_tju3:auto_generated|altsyncram_pvr2:altsyncram1                                                   ; work         ;
 ;             |sld_mod_ram_rom:mgl_prim2|                             ; 61 (36)           ; 34 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|rrr:inst1|altsyncram:altsyncram_component|altsyncram_tju3:auto_generated|sld_mod_ram_rom:mgl_prim2                                                     ; work         ;
 ;                |sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr| ; 25 (25)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|rrr:inst1|altsyncram:altsyncram_component|altsyncram_tju3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr  ; work         ;
-;    |sld_hub:auto_hub|                                               ; 158 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub                                                                                                                                       ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                ; 157 (119)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                          ; work         ;
+;    |sld_hub:auto_hub|                                               ; 157 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub                                                                                                                                       ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                ; 156 (118)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                          ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                                  ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                  ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                ; work         ;
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
@@ -361,7 +362,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[2][1]                                                                                     ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                                                                                     ;
 ; 8:1                ; 5 bits    ; 25 LEs        ; 10 LEs               ; 15 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[3]                                                                                              ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                                                                                       ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 60 LEs               ; 28 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                                                                                       ;
 ; 28:1               ; 4 bits    ; 72 LEs        ; 36 LEs               ; 36 LEs                 ; Yes        ; |22|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]                                                                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -591,7 +592,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Sun Sep 29 20:30:37 2019
+    Info: Processing started: Wed Oct 23 20:35:26 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 22 -c 22
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file ram1.vhd
@@ -789,15 +790,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 406 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 405 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 33 output pins
-    Info (21061): Implemented 351 logic cells
+    Info (21061): Implemented 350 logic cells
     Info (21064): Implemented 16 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4687 megabytes
-    Info: Processing ended: Sun Sep 29 20:30:42 2019
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4688 megabytes
+    Info: Processing ended: Wed Oct 23 20:35:32 2019
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

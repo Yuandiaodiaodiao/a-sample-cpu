@@ -1,0 +1,92 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 128 208)
+	(text "8bitAdderBus" (rect 5 0 61 8)(font "Consolas" (font_size 5)))
+	(text "inst" (rect 8 180 26 188)(font "Consolas" (font_size 5)))
+	(port
+		(pt 0 32)
+		(input)
+		(text "S3" (rect 0 0 10 7)(font "Arial" (font_size 5)))
+		(text "S3" (rect 21 27 31 34)(font "Arial" (font_size 5)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "S2" (rect 0 0 10 7)(font "Arial" (font_size 5)))
+		(text "S2" (rect 21 43 31 50)(font "Arial" (font_size 5)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "S1" (rect 0 0 10 7)(font "Arial" (font_size 5)))
+		(text "S1" (rect 21 59 31 66)(font "Arial" (font_size 5)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "S0" (rect 0 0 10 7)(font "Arial" (font_size 5)))
+		(text "S0" (rect 21 75 31 82)(font "Arial" (font_size 5)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "AN[7..0]" (rect 0 0 30 7)(font "Arial" (font_size 5)))
+		(text "AN[7..0]" (rect 21 91 51 98)(font "Arial" (font_size 5)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "BN[7..0]" (rect 0 0 30 7)(font "Arial" (font_size 5)))
+		(text "BN[7..0]" (rect 21 107 51 114)(font "Arial" (font_size 5)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "CN" (rect 0 0 11 7)(font "Arial" (font_size 5)))
+		(text "CN" (rect 21 123 32 130)(font "Arial" (font_size 5)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "M" (rect 0 0 5 7)(font "Arial" (font_size 5)))
+		(text "M" (rect 21 139 26 146)(font "Arial" (font_size 5)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 112 32)
+		(output)
+		(text "FN[7..0]" (rect 0 0 29 7)(font "Arial" (font_size 5)))
+		(text "FN[7..0]" (rect 62 27 91 34)(font "Arial" (font_size 5)))
+		(line (pt 112 32)(pt 96 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 176))
+	)
+)

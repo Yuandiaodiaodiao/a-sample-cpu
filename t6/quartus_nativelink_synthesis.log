@@ -1,0 +1,10 @@
+Info: Using NativeLink to launch synthesis Tool
+Synthesis tool <None> is not supported by NativeLink
+Error: NativeLink flow failed to complete synthesis
+
+================The following information is provided to Debug NativeLink Script=================
+Nativelink TCL script failed with errorCode:  POSIX ENOENT {no such file or directory}
+Nativelink TCL script failed with errorInfo:  couldn't open "C:/altera/13.1/quartus/bin64/tclIndex": no such file or directory
+    while executing
+"open [file join $dir tclIndex]"
+PATH Environment Variable is set to :  c:\altera\13.1\quartus\bin64\;c:\altera\13.1\quartus\bin64\;D:\Program Files (x86)\NetSarang\Xshell 6\;D:\ProgramData\ob12\product\12.2.0\dbhome_1\bin;D:\ProgramData\Anaconda3;D:\ProgramData\Anaconda3\Library\mingw-w64\bin;D:\ProgramData\Anaconda3\Library\usr\bin;D:\ProgramData\Anaconda3\Library\bin;D:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Program Files\MATLAB\R2017b\runtime\win64;D:\Program Files\MATLAB\R2017b\bin;D:\Program Files\Java\jdk8\bin;D:\Program Files\Java\jdk8\jre;D:\Program Files\Perforce\;D:\android\sdk\platform-tools;D:\Program Files\CMake\bin;D:\Program Files\nodejs\;D:\Program Files (x86)\Yarn\bin\;C:\Users\qq295\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;C:\Users\qq295\AppData\Local\GitHubDesktop\bin;C:\Users\qq295\AppData\Local\Microsoft\WindowsApps;C:\Users\qq295\AppData\Roaming\npm;C:\Users\qq295\AppData\Local\Yarn\bin;;C:\altera\13.1\modelsim_ase\win32aloem;C:\altera\13.1\modelsim_ae\win32aloem

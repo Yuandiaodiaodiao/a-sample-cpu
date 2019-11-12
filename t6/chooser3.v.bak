@@ -1,0 +1,22 @@
+module chooser3(
+	input [5:0] opcode,
+	input [7:0] a,
+	input [7:0] b,
+	input [7:0] c,
+	output reg[7:0] d
+);
+parameter	op1 = 6'b000010,
+				op2 = 6'b000100;
+always @(*)
+begin
+	if(opcode == op1) begin
+			d = a;
+		end
+	else if(opcode == op2) begin
+			d = b;
+		end
+	else begin
+			d = c;
+		end
+end
+endmodule 
