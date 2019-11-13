@@ -11,7 +11,7 @@ set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "D:/Github/asamplecpu/t6/simulation/qsim/" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_instance_assignment -name VIRTUAL_PIN ON -to CodeOUT[15]
@@ -139,8 +139,6 @@ set_instance_assignment -name VIRTUAL_PIN ON -to diffB[1]
 set_instance_assignment -name VIRTUAL_PIN ON -to diffB[0]
 set_global_assignment -name HEX_FILE romM16bit32.hex
 set_global_assignment -name HEX_FILE romCode.hex
-set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE output_files/Waveform2.vwf
 set_global_assignment -name BDF_FILE backup.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_location_assignment PIN_113 -to clock
@@ -182,4 +180,5 @@ set_global_assignment -name QIP_FILE lpm_constantnor.qip
 set_global_assignment -name QIP_FILE lpm_constantxor.qip
 set_global_assignment -name QIP_FILE lpm_constantslt.qip
 set_global_assignment -name VERILOG_FILE clean.v
+set_global_assignment -name BDF_FILE rgboutPUT.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

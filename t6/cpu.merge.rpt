@@ -1,5 +1,5 @@
 Partition Merge report for cpu
-Wed Nov 13 19:33:56 2019
+Thu Nov 14 02:54:11 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -39,17 +39,17 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Partition Merge Summary                                                          ;
 +------------------------------------+---------------------------------------------+
-; Partition Merge Status             ; Successful - Wed Nov 13 19:33:56 2019       ;
+; Partition Merge Status             ; Successful - Thu Nov 14 02:54:11 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; cpu                                         ;
 ; Top-level Entity Name              ; cpu                                         ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,330 / 6,272 ( 21 % )                      ;
-;     Total combinational functions  ; 1,245 / 6,272 ( 20 % )                      ;
-;     Dedicated logic registers      ; 431 / 6,272 ( 7 % )                         ;
-; Total registers                    ; 431                                         ;
+; Total logic elements               ; 1,365 / 6,272 ( 22 % )                      ;
+;     Total combinational functions  ; 1,289 / 6,272 ( 21 % )                      ;
+;     Dedicated logic registers      ; 416 / 6,272 ( 7 % )                         ;
+; Total registers                    ; 416                                         ;
 ; Total pins                         ; 13 / 92 ( 14 % )                            ;
-; Total virtual pins                 ; 136                                         ;
+; Total virtual pins                 ; 114                                         ;
 ; Total memory bits                  ; 6,144 / 276,480 ( 2 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
 ; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
@@ -72,23 +72,23 @@ applicable agreement for further details.
 +---------------------------------------------+----------------------+--------------------+--------------------------------+
 ; Statistic                                   ; Top                  ; sld_hub:auto_hub   ; hard_block:auto_generated_inst ;
 +---------------------------------------------+----------------------+--------------------+--------------------------------+
-; Estimated Total logic elements              ; 1157 / 6272 ( 18 % ) ; 173 / 6272 ( 3 % ) ; 0 / 6272 ( 0 % )               ;
+; Estimated Total logic elements              ; 1191 / 6272 ( 19 % ) ; 174 / 6272 ( 3 % ) ; 0 / 6272 ( 0 % )               ;
 ;                                             ;                      ;                    ;                                ;
-; Total combinational functions               ; 1088                 ; 157                ; 0                              ;
+; Total combinational functions               ; 1131                 ; 158                ; 0                              ;
 ; Logic element usage by number of LUT inputs ;                      ;                    ;                                ;
-;     -- 4 input functions                    ; 533                  ; 69                 ; 0                              ;
-;     -- 3 input functions                    ; 422                  ; 45                 ; 0                              ;
-;     -- <=2 input functions                  ; 133                  ; 43                 ; 0                              ;
+;     -- 4 input functions                    ; 562                  ; 71                 ; 0                              ;
+;     -- 3 input functions                    ; 420                  ; 45                 ; 0                              ;
+;     -- <=2 input functions                  ; 149                  ; 42                 ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
 ; Logic elements by mode                      ;                      ;                    ;                                ;
-;     -- normal mode                          ; 938                  ; 149                ; 0                              ;
+;     -- normal mode                          ; 981                  ; 150                ; 0                              ;
 ;     -- arithmetic mode                      ; 150                  ; 8                  ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
-; Total registers                             ; 334                  ; 97                 ; 0                              ;
-;     -- Dedicated logic registers            ; 334 / 6272 ( 5 % )   ; 97 / 6272 ( 2 % )  ; 0 / 6272 ( 0 % )               ;
+; Total registers                             ; 319                  ; 97                 ; 0                              ;
+;     -- Dedicated logic registers            ; 319 / 6272 ( 5 % )   ; 97 / 6272 ( 2 % )  ; 0 / 6272 ( 0 % )               ;
 ;     -- I/O registers                        ; 0                    ; 0                  ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
-; Virtual pins                                ; 136                  ; 0                  ; 0                              ;
+; Virtual pins                                ; 114                  ; 0                  ; 0                              ;
 ; I/O pins                                    ; 13                   ; 0                  ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 30 ( 0 % )       ; 0 / 30 ( 0 % )     ; 0 / 30 ( 0 % )                 ;
 ; Total memory bits                           ; 6144                 ; 0                  ; 0                              ;
@@ -103,8 +103,8 @@ applicable agreement for further details.
 ;     -- Registered Output Connections        ; 10                   ; 135                ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
 ; Internal Connections                        ;                      ;                    ;                                ;
-;     -- Total Connections                    ; 5075                 ; 965                ; 0                              ;
-;     -- Registered Connections               ; 1583                 ; 667                ; 0                              ;
+;     -- Total Connections                    ; 5157                 ; 971                ; 0                              ;
+;     -- Registered Connections               ; 1433                 ; 673                ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
 ; External Connections                        ;                      ;                    ;                                ;
 ;     -- Top                                  ; 176                  ; 277                ; 0                              ;
@@ -113,7 +113,7 @@ applicable agreement for further details.
 ;                                             ;                      ;                    ;                                ;
 ; Partition Interface                         ;                      ;                    ;                                ;
 ;     -- Input Ports                          ; 35                   ; 23                 ; 0                              ;
-;     -- Output Ports                         ; 160                  ; 40                 ; 0                              ;
+;     -- Output Ports                         ; 138                  ; 40                 ; 0                              ;
 ;     -- Bidir Ports                          ; 0                    ; 0                  ; 0                              ;
 ;                                             ;                      ;                    ;                                ;
 ; Registered Ports                            ;                      ;                    ;                                ;
@@ -139,284 +139,218 @@ Note: Resource usage numbers presented for Partitions containing post-synthesis 
 ; Name                                                                          ; Partition ; Type          ; Location           ; Status                                      ;
 +-------------------------------------------------------------------------------+-----------+---------------+--------------------+---------------------------------------------+
 ; ALUOUT[0]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[0]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[0]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[1]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[1]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[1]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[2]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[2]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[2]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[3]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[3]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[3]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[4]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[4]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N30 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[4]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X12_Y11_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[5]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[5]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N28 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[5]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X14_Y7_N6   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[6]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[6]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N26 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[6]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X14_Y7_N4   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ALUOUT[7]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ALUOUT[7]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N24 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ALUOUT[7]                                                              ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N18 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[0]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X14_Y11_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[10]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[10]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[10]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N12 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[11]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[11]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[11]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[12]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[12]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[12]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[13]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[13]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[13]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[14]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[14]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X22_Y17_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[14]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[15]                                                                   ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[15]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X22_Y17_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[15]                                                            ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[1]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y12_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[2]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[3]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[3]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[3]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y12_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[4]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[4]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[4]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N18 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[5]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[5]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[5]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[6]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[6]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N18 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[6]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N16 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[7]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[7]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X22_Y17_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[7]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X13_Y11_N14 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[8]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[8]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X22_Y17_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[8]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; CodeOUT[9]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- CodeOUT[9]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X21_Y15_N16 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD3PICK[0]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD3PICK[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N12 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD3PICK[1]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD3PICK[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N10 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD3PICK[2]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD3PICK[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N8  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD4PICK[0]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD4PICK[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N18 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD4PICK[1]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD4PICK[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N16 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; DD4PICK[2]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD4PICK[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- CodeOUT[9]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X17_Y12_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DD4TwoOne                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DD4TwoOne                                                              ; Top       ; Output Pad    ; IOPAD_X16_Y24_N7   ; Preserved from Post-Fit or Imported Netlist ;
-;     -- DD4TwoOne~output                                                       ; Top       ; Output Buffer ; IOOBUF_X16_Y24_N9  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DD4TwoOne                                                              ; Top       ; Output Pad    ; IOPAD_X34_Y10_N7   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DD4TwoOne~output                                                       ; Top       ; Output Buffer ; IOOBUF_X34_Y10_N9  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[0]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[0]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[0]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X17_Y14_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[1]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[1]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[1]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[2]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[2]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[2]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X17_Y14_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[3]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[3]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N28 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[3]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[4]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[4]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N26 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[4]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X17_Y14_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[5]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[5]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N24 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[5]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X14_Y11_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[6]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[6]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[6]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; DIRW[7]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- DIRW[7]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- DIRW[7]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[0]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N8   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[1]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[2]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[3]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N6   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[4]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[5]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[6]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N4   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N18  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OA[7]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OA[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N2   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OA[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N16  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[0]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N26 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[1]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N24 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[2]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N22 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[3]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N20 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[4]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N18 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[5]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N10  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N16 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[6]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N16 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N14 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OB[7]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OB[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OB[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N12 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[0]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N24 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[0]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[1]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[1]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N6   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[2]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[2]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N4   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[3]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N18 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[3]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[4]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N16 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[4]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[5]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[5]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[6]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[6]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; OC[7]                                                                         ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- OC[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- OC[7]                                                                  ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N28 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[2]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N16  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[3]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[3]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[3]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N14  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[4]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[4]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[4]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y10_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[5]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[5]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[5]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N12  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[6]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[6]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N28 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[6]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N10  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PCOUT[7]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PCOUT[7]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N26 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PCOUT[7]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N8   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKA[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKA[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N16 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKA[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKA[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKA[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKA[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKA[2]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKA[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKA[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N18  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKB[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKB[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKB[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N8   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKB[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKB[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKB[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N6   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; PICKB[2]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- PICKB[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N18 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X21_Y14_N30 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N10 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[2]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y14_N4  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[3]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[3]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N8  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[4]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[4]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N30 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[5]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[5]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X21_Y17_N0  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[6]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[6]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y14_N2  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHA[7]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHA[7]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N6  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N18 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N2  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[2]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N0  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[3]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[3]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N18 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[4]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[4]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N16 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[5]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[5]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N14 ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[6]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[6]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X14_Y13_N0  ; Preserved from Post-Fit or Imported Netlist ;
-;                                                                               ;           ;               ;                    ;                                             ;
-; REGHB[7]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- REGHB[7]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- PICKB[2]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N4   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; RGBOUT[0]                                                                     ; Top       ; Output Port   ; n/a                ;                                             ;
 ;     -- RGBOUT[0]                                                              ; Top       ; Output Pad    ; IOPAD_X5_Y0_N14    ; Preserved from Post-Fit or Imported Netlist ;
@@ -475,16 +409,16 @@ Note: Resource usage numbers presented for Partitions containing post-synthesis 
 ;     -- clr~input                                                              ; Top       ; Input Buffer  ; IOIBUF_X16_Y0_N8   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; diffA[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- diffA[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- diffA[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; diffA[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- diffA[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- diffA[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; diffB[0]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- diffB[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- diffB[0]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; diffB[1]                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- diffB[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- diffB[1]                                                               ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; jtag.bp.codeRom_altsyncram_component_auto_generated_mgl_prim2_clr             ; Top       ; Input Port    ; n/a                ;                                             ;
 ;                                                                               ;           ;               ;                    ;                                             ;
@@ -571,128 +505,128 @@ Note: Resource usage numbers presented for Partitions containing post-synthesis 
 ; jtag.bp.inst16_altsyncram_component_auto_generated_mgl_prim2_usr1             ; Top       ; Input Port    ; n/a                ;                                             ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[0]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[0]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[0]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N8   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[10]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[10]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N16 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[10]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[11]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[11]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[11]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[12]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[12]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[12]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[13]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[13]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[13]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X14_Y11_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[14]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[14]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[14]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X18_Y14_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[15]                                                                 ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[15]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[15]                                                          ; Top       ; Virtual Pin   ; LCCOMB_X16_Y12_N4  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[1]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[1]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[1]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N14  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[2]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[2]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y13_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[2]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N12  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[3]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[3]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X14_Y8_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[3]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N10  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[4]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[4]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N28 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[4]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N8   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[5]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[5]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N26 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[5]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N6   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[6]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[6]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N24 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[6]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N6   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[7]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[7]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[7]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N4   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[8]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[8]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[8]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; microCode[9]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- microCode[9]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N18 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- microCode[9]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y8_N4   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[0]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N22 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[0]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X14_Y7_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[1]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N20 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[1]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N16 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[2]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N18 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[2]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X12_Y11_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[3]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[3]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N16 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[3]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N14 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[4]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[4]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[4]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N12 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[5]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[5]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[5]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N10 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[6]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[6]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[6]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y13_N8  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramdata[7]                                                                    ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramdata[7]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X16_Y16_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramdata[7]                                                             ; Top       ; Virtual Pin   ; LCCOMB_X14_Y7_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[0]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[0]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[0]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N20  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[1]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[1]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[1]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N18  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[2]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[2]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X10_Y16_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[2]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N16  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[3]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[3]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X14_Y14_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[3]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X16_Y6_N10  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[4]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[4]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X13_Y14_N0  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[4]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N14  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[5]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[5]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N28 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[5]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N12  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[6]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[6]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N26 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[6]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N10  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; ramq[7]                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- ramq[7]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X19_Y16_N24 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- ramq[7]                                                                ; Top       ; Virtual Pin   ; LCCOMB_X19_Y10_N30 ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; rdenOUT                                                                       ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- rdenOUT                                                                ; Top       ; Output Pad    ; IOPAD_X13_Y24_N21  ; Preserved from Post-Fit or Imported Netlist ;
-;     -- rdenOUT~output                                                         ; Top       ; Output Buffer ; IOOBUF_X13_Y24_N23 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- rdenOUT                                                                ; Top       ; Output Pad    ; IOPAD_X16_Y0_N0    ; Preserved from Post-Fit or Imported Netlist ;
+;     -- rdenOUT~output                                                         ; Top       ; Output Buffer ; IOOBUF_X16_Y0_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[0]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[0]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X18_Y18_N30 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[0]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y7_N2   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[1]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[1]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N14 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[1]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y7_N0   ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[2]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[2]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N12 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[2]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y12_N2  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[3]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[3]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N10 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[3]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X21_Y12_N0  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[4]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[4]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X12_Y12_N30 ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[4]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N26  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[5]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[5]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N8  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[5]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N24  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[6]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[6]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N6  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[6]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X18_Y9_N22  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wbDataOUT[7]                                                                  ; Top       ; Output Port   ; n/a                ;                                             ;
-;     -- wbDataOUT[7]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X13_Y17_N4  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- wbDataOUT[7]                                                           ; Top       ; Virtual Pin   ; LCCOMB_X16_Y12_N6  ; Preserved from Post-Fit or Imported Netlist ;
 ;                                                                               ;           ;               ;                    ;                                             ;
 ; wrenNOUT                                                                      ; Top       ; Output Port   ; n/a                ;                                             ;
 ;     -- wrenNOUT                                                               ; Top       ; Output Pad    ; IOPAD_X18_Y24_N21  ; Preserved from Post-Fit or Imported Netlist ;
@@ -706,30 +640,30 @@ Note: Resource usage numbers presented for Partitions containing post-synthesis 
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Estimated Total logic elements              ; 1,330 / 6,272 ( 21 % ) ;
+; Estimated Total logic elements              ; 1,365 / 6,272 ( 21 % ) ;
 ;                                             ;                        ;
-; Total combinational functions               ; 1245                   ;
+; Total combinational functions               ; 1289                   ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 602                    ;
-;     -- 3 input functions                    ; 467                    ;
-;     -- <=2 input functions                  ; 176                    ;
+;     -- 4 input functions                    ; 633                    ;
+;     -- 3 input functions                    ; 465                    ;
+;     -- <=2 input functions                  ; 191                    ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 1087                   ;
+;     -- normal mode                          ; 1131                   ;
 ;     -- arithmetic mode                      ; 158                    ;
 ;                                             ;                        ;
-; Total registers                             ; 431                    ;
-;     -- Dedicated logic registers            ; 431                    ;
+; Total registers                             ; 416                    ;
+;     -- Dedicated logic registers            ; 416                    ;
 ;     -- I/O registers                        ; 0                      ;
 ;                                             ;                        ;
-; Virtual pins                                ; 136                    ;
+; Virtual pins                                ; 114                    ;
 ; I/O pins                                    ; 13                     ;
 ; Total memory bits                           ; 6144                   ;
 ; Embedded Multiplier 9-bit elements          ; 0                      ;
 ; Maximum fan-out node                        ; inst~clkctrl           ;
-; Maximum fan-out                             ; 233                    ;
-; Total fan-out                               ; 5658                   ;
-; Average fan-out                             ; 3.01                   ;
+; Maximum fan-out                             ; 218                    ;
+; Total fan-out                               ; 5738                   ;
+; Average fan-out                             ; 3.04                   ;
 +---------------------------------------------+------------------------+
 
 
@@ -749,7 +683,7 @@ Note: Resource usage numbers presented for Partitions containing post-synthesis 
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Partition Merge
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Wed Nov 13 19:33:55 2019
+    Info: Processing started: Thu Nov 14 02:54:10 2019
 Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off cpu -c cpu --merge=on
 Info (35006): Using previously generated Fitter netlist for partition "Top"
 Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
@@ -757,153 +691,153 @@ Info (35002): Resolved and merged 2 partition(s)
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (15752): Ignored 139 Virtual Pin logic option assignments
-    Warning (15751): Ignored Virtual Pin assignment to "OB[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[10]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "OC[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "OC[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "PCOUT[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "PICKB[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramq[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "microCode[10]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "microCode[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "OB[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[11]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "OC[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "diffA[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "OC[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "PCOUT[3]".
     Warning (15751): Ignored Virtual Pin assignment to "ramdata[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "PICKA[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[6]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[5]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[11]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[4]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[12]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[2]".
     Warning (15751): Ignored Virtual Pin assignment to "OB[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[1]".
     Warning (15751): Ignored Virtual Pin assignment to "OA[7]".
     Warning (15751): Ignored Virtual Pin assignment to "OB[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[12]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[1]".
     Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[0]".
     Warning (15751): Ignored Virtual Pin assignment to "OC[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[2]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "PICKA[1]".
     Warning (15751): Ignored Virtual Pin assignment to "diffB[1]".
     Warning (15751): Ignored Virtual Pin assignment to "ramdata[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "PICKA[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[5]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[6]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[12]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[3]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[0]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[13]".
-    Warning (15751): Ignored Virtual Pin assignment to "OB[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[3]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[13]".
     Warning (15751): Ignored Virtual Pin assignment to "OB[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[2]".
     Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[1]".
     Warning (15751): Ignored Virtual Pin assignment to "OC[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[1]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "diffA[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[1]".
     Warning (15751): Ignored Virtual Pin assignment to "DIRW[3]".
     Warning (15751): Ignored Virtual Pin assignment to "PICKA[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "diffA[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[4]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[7]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[13]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[2]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[1]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[7]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[14]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[4]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[8]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[14]".
     Warning (15751): Ignored Virtual Pin assignment to "OB[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[3]".
     Warning (15751): Ignored Virtual Pin assignment to "OC[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[8]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[0]".
     Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[2]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "diffB[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "DIRW[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[0]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "diffB[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[3]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[14]".
     Warning (15751): Ignored Virtual Pin assignment to "PICKB[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[1]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[2]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[8]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[15]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[7]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[4]".
-    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[9]".
     Warning (15751): Ignored Virtual Pin assignment to "OB[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[15]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[9]".
     Warning (15751): Ignored Virtual Pin assignment to "OC[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[0]".
     Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHB[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD3PICK[0]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[2]".
     Warning (15751): Ignored Virtual Pin assignment to "PCOUT[1]".
     Warning (15751): Ignored Virtual Pin assignment to "DIRW[5]".
-    Warning (15751): Ignored Virtual Pin assignment to "ramdata[2]".
-    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[2]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[15]".
     Warning (15751): Ignored Virtual Pin assignment to "PICKB[1]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[6]".
-    Warning (15751): Ignored Virtual Pin assignment to "DD5PICK[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[0]".
     Warning (15751): Ignored Virtual Pin assignment to "ramq[3]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[9]".
-    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[0]".
-    Warning (15751): Ignored Virtual Pin assignment to "OA[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[6]".
     Warning (15751): Ignored Virtual Pin assignment to "microCode[3]".
-    Warning (15751): Ignored Virtual Pin assignment to "REGHA[5]".
-Info (21057): Implemented 1625 device resources after synthesis - the final resource count might be different
+    Warning (15751): Ignored Virtual Pin assignment to "OB[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[10]".
+    Warning (15751): Ignored Virtual Pin assignment to "OC[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "OB[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "OC[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramdata[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "PCOUT[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "PICKB[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "ramq[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "microCode[10]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHB[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "microCode[4]".
+    Warning (15751): Ignored Virtual Pin assignment to "ALUOUT[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "OB[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[6]".
+    Warning (15751): Ignored Virtual Pin assignment to "OC[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[11]".
+    Warning (15751): Ignored Virtual Pin assignment to "wbDataOUT[2]".
+    Warning (15751): Ignored Virtual Pin assignment to "OA[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "OC[1]".
+    Warning (15751): Ignored Virtual Pin assignment to "CodeOUT[5]".
+    Warning (15751): Ignored Virtual Pin assignment to "diffA[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "DD4PICK[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[7]".
+    Warning (15751): Ignored Virtual Pin assignment to "PCOUT[3]".
+    Warning (15751): Ignored Virtual Pin assignment to "REGHA[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "PICKA[0]".
+    Warning (15751): Ignored Virtual Pin assignment to "DIRW[1]".
+Info (21057): Implemented 1637 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 12 output pins
-    Info (21061): Implemented 1602 logic cells
+    Info (21061): Implemented 1613 logic cells
     Info (21064): Implemented 2 RAM segments
 Info: Quartus II 64-Bit Partition Merge was successful. 0 errors, 140 warnings
-    Info: Peak virtual memory: 4662 megabytes
-    Info: Processing ended: Wed Nov 13 19:33:56 2019
+    Info: Peak virtual memory: 4669 megabytes
+    Info: Processing ended: Thu Nov 14 02:54:11 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

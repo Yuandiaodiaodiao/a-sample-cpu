@@ -1,14 +1,11 @@
-addi 1 0 0
-addi 2 0 1
-addi 4 0 0
-addi 5 0 5
-add 3 1 2
-addi 1 2 0
-addi 2 3 0
-addi 4 4 1
+addi 1 0 12
+addi 2 0 2
+mul 1 2
+mflo 3
 pln 3
-beq 4 5 14
-nop
-nop
-j 5
-sw 3 0 0
+div 1 2
+mflo 1
+pln 1
+div 1 2
+mflo 1
+pln 1

@@ -13,7 +13,7 @@ module swapit(op,x,a,b,c,d);
 					B = 2'b01,
 					C = 2'b10,
 					D = 2'b11;
-	always @(op)
+	always @(*)
 		begin
 			case(op)
 				A:
@@ -32,14 +32,14 @@ module swapit(op,x,a,b,c,d);
 					end
 				C:
 					begin 
-						a = {3'b000};
+						a = x[10:8];
 						b = x[10:8];
 						c = x[7:5];
 						d = {3'b000,x[4:0]};
 					end 
 				D:
 					begin 
-						a = {3'b000};
+						a = x[10:8];
 						b = x[10:8];
 						c = {3'b000};
 						d = x[7:0];

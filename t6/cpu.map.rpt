@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpu
-Wed Nov 13 19:33:54 2019
+Thu Nov 14 02:54:09 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -14,73 +14,77 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
   6. Analysis & Synthesis IP Cores Summary
   7. Partition Status Summary
   8. Partition for Top-Level Resource Utilization by Entity
-  9. Logic Cells Representing Combinational Loops
- 10. Registers Removed During Synthesis
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Source assignments for romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|altsyncram_7iu2:altsyncram1
- 13. Source assignments for rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|altsyncram_1or2:altsyncram1
- 14. Parameter Settings for User Entity Instance: swapit:inst5
- 15. Parameter Settings for User Entity Instance: romCode:codeRom|altsyncram:altsyncram_component
- 16. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst5
- 17. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst1
- 18. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst19
- 19. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst10
- 20. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst11
- 21. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd22|lpm_constant:LPM_CONSTANT_component
- 22. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst12
- 23. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub23|lpm_constant:LPM_CONSTANT_component
- 24. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst13
- 25. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant3:constAnd26|lpm_constant:LPM_CONSTANT_component
- 26. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst14
- 27. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantor:constor27|lpm_constant:LPM_CONSTANT_component
- 28. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst70
- 29. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantnor:inst71|lpm_constant:LPM_CONSTANT_component
- 30. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst73
- 31. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantxor:inst75|lpm_constant:LPM_CONSTANT_component
- 32. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst76
- 33. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantslt:inst77|lpm_constant:LPM_CONSTANT_component
- 34. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst2
- 35. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst66
- 36. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst15
- 37. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd23|lpm_constant:LPM_CONSTANT_component
- 38. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst16
- 39. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd24|lpm_constant:LPM_CONSTANT_component
- 40. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst53
- 41. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst56
- 42. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst59
- 43. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst62
- 44. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst65
- 45. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst69
- 46. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst3
- 47. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst32
- 48. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst34
- 49. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd25|lpm_constant:LPM_CONSTANT_component
- 50. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst37
- 51. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub24|lpm_constant:LPM_CONSTANT_component
- 52. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst4
- 53. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst40
- 54. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst42
- 55. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst45
- 56. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst48
- 57. Parameter Settings for User Entity Instance: cyalu:inst21|chooser3:inst1
- 58. Parameter Settings for User Entity Instance: cyalu:inst21|jjcc:inst8
- 59. Parameter Settings for User Entity Instance: cyalu:inst21|alu_codex:inst
- 60. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst54
- 61. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst52
- 62. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst44
- 63. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst50
- 64. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst46
- 65. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst48
- 66. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst42
- 67. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst40
- 68. Parameter Settings for User Entity Instance: chooser2:regchooser2
- 69. Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component
- 70. Partition Dependent Files
- 71. Partition "sld_hub:auto_hub" Resource Utilization by Entity
- 72. Multiplexer Restructuring Statistics (Restructuring Performed)
- 73. In-System Memory Content Editor Settings
- 74. Analysis & Synthesis Messages
- 75. Analysis & Synthesis Suppressed Messages
+  9. User-Specified and Inferred Latches
+ 10. Logic Cells Representing Combinational Loops
+ 11. Registers Removed During Synthesis
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Source assignments for romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|altsyncram_7iu2:altsyncram1
+ 14. Source assignments for rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|altsyncram_1or2:altsyncram1
+ 15. Parameter Settings for User Entity Instance: swapit:inst5
+ 16. Parameter Settings for User Entity Instance: romCode:codeRom|altsyncram:altsyncram_component
+ 17. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst5
+ 18. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst1
+ 19. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst19
+ 20. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst10
+ 21. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst11
+ 22. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd22|lpm_constant:LPM_CONSTANT_component
+ 23. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst12
+ 24. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub23|lpm_constant:LPM_CONSTANT_component
+ 25. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst13
+ 26. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant3:constAnd26|lpm_constant:LPM_CONSTANT_component
+ 27. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst14
+ 28. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantor:constor27|lpm_constant:LPM_CONSTANT_component
+ 29. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst70
+ 30. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantnor:inst71|lpm_constant:LPM_CONSTANT_component
+ 31. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst73
+ 32. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantxor:inst75|lpm_constant:LPM_CONSTANT_component
+ 33. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst76
+ 34. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantslt:inst77|lpm_constant:LPM_CONSTANT_component
+ 35. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst2
+ 36. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst66
+ 37. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst15
+ 38. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd23|lpm_constant:LPM_CONSTANT_component
+ 39. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst16
+ 40. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd24|lpm_constant:LPM_CONSTANT_component
+ 41. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst53
+ 42. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst56
+ 43. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst59
+ 44. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst62
+ 45. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst65
+ 46. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst69
+ 47. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst3
+ 48. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst32
+ 49. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst34
+ 50. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd25|lpm_constant:LPM_CONSTANT_component
+ 51. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst37
+ 52. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst80
+ 53. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst4
+ 54. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst40
+ 55. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst42
+ 56. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst45
+ 57. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst48
+ 58. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst83
+ 59. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst86
+ 60. Parameter Settings for User Entity Instance: alu_v2:inst1
+ 61. Parameter Settings for User Entity Instance: chooser2:regchooser2
+ 62. Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component
+ 63. Parameter Settings for User Entity Instance: cyalu:inst21|chooser3:inst1
+ 64. Parameter Settings for User Entity Instance: cyalu:inst21|jjcc:inst8
+ 65. Parameter Settings for User Entity Instance: cyalu:inst21|alu_codex:inst
+ 66. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst54
+ 67. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst52
+ 68. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst44
+ 69. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst50
+ 70. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst46
+ 71. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst48
+ 72. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst42
+ 73. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst40
+ 74. Partition Dependent Files
+ 75. Partition "sld_hub:auto_hub" Resource Utilization by Entity
+ 76. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 77. In-System Memory Content Editor Settings
+ 78. Analysis & Synthesis Messages
+ 79. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -106,7 +110,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 13 19:33:54 2019       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 14 02:54:08 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; cpu                                         ;
 ; Top-level Entity Name              ; cpu                                         ;
@@ -243,6 +247,7 @@ applicable agreement for further details.
 ; lpm_constantxor.vhd              ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantxor.vhd                          ;         ;
 ; lpm_constantslt.vhd              ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantslt.vhd                          ;         ;
 ; clean.v                          ; yes             ; User Verilog HDL File                    ; D:/Github/asamplecpu/t6/clean.v                                      ;         ;
+; rgboutPUT.bdf                    ; yes             ; User Block Diagram/Schematic File        ; D:/Github/asamplecpu/t6/rgboutPUT.bdf                                ;         ;
 ; cpu.bdf                          ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/cpu.bdf                                      ;         ;
 ; ddreg.v                          ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/ddreg.v                                      ;         ;
 ; swapit.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/swapit.v                                     ;         ;
@@ -277,7 +282,16 @@ applicable agreement for further details.
 ; 8bitadd.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadd.bdf                                  ;         ;
 ; 8bitadderbus.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadderbus.bdf                             ;         ;
 ; 8bitadder.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadder.bdf                                ;         ;
-; iszero.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/iszero.v                                     ;         ;
+; alu_v2.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/alu_v2.v                                     ;         ;
+; chooser2.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/chooser2.v                                   ;         ;
+; diffchoose.v                     ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffchoose.v                                 ;         ;
+; diffcheck.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffcheck.v                                  ;         ;
+; d8.v                             ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/d8.v                                         ;         ;
+; regheap.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/regheap.v                                    ;         ;
+; rrr.vhd                          ; yes             ; Auto-Found Wizard-Generated File         ; D:/Github/asamplecpu/t6/rrr.vhd                                      ;         ;
+; db/altsyncram_5cu3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_5cu3.tdf                       ;         ;
+; db/altsyncram_1or2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_1or2.tdf                       ;         ;
+; rrr.hex                          ; yes             ; Auto-Found Memory Initialization File    ; D:/Github/asamplecpu/t6/rrr.hex                                      ;         ;
 ; cyalu.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/cyalu.bdf                                    ;         ;
 ; chooser3.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/chooser3.v                                   ;         ;
 ; jjcc.v                           ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/jjcc.v                                       ;         ;
@@ -286,18 +300,9 @@ applicable agreement for further details.
 ; 74183o.bdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/others/maxplus2/74183o.bdf          ;         ;
 ; db/mux_erc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/mux_erc.tdf                               ;         ;
 ; div.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/div.v                                        ;         ;
-; chooser2.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/chooser2.v                                   ;         ;
-; diffchoose.v                     ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffchoose.v                                 ;         ;
-; diffcheck.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffcheck.v                                  ;         ;
-; regheap.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/regheap.v                                    ;         ;
-; rrr.vhd                          ; yes             ; Auto-Found Wizard-Generated File         ; D:/Github/asamplecpu/t6/rrr.vhd                                      ;         ;
-; db/altsyncram_5cu3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_5cu3.tdf                       ;         ;
-; db/altsyncram_1or2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_1or2.tdf                       ;         ;
-; rrr.hex                          ; yes             ; Auto-Found Memory Initialization File    ; D:/Github/asamplecpu/t6/rrr.hex                                      ;         ;
 ; diffone.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffone.v                                    ;         ;
 ; outputone.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/outputone.bdf                                ;         ;
 ; d13.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/d13.v                                        ;         ;
-; d8.v                             ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/d8.v                                         ;         ;
 ; sld_hub.vhd                      ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd           ;         ;
 ; sld_jtag_hub.vhd                 ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd      ;         ;
 +----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------+---------+
@@ -316,7 +321,6 @@ applicable agreement for further details.
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant3:constAnd26 ; D:/Github/asamplecpu/t6/lpm_constant3.vhd   ;
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantor:constor27 ; D:/Github/asamplecpu/t6/lpm_constantor.vhd  ;
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub23 ; D:/Github/asamplecpu/t6/lpm_constant2.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub24 ; D:/Github/asamplecpu/t6/lpm_constant2.vhd   ;
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantnor:inst71   ; D:/Github/asamplecpu/t6/lpm_constantnor.vhd ;
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantxor:inst75   ; D:/Github/asamplecpu/t6/lpm_constantxor.vhd ;
 ; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantslt:inst77   ; D:/Github/asamplecpu/t6/lpm_constantslt.vhd ;
@@ -339,19 +343,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                          ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                              ; Library Name ;
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |cpu                                                                ; 1088 (11)         ; 334 (2)      ; 6144        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                                                                                             ; work         ;
-;    |74273b:inst20|                                                  ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:inst20                                                                                                                                               ; work         ;
+; |cpu                                                                ; 1131 (10)         ; 319 (0)      ; 6144        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                                                                                             ; work         ;
 ;    |74273b:inst24|                                                  ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:inst24                                                                                                                                               ; work         ;
 ;    |74273b:inst25|                                                  ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:inst25                                                                                                                                               ; work         ;
-;    |74273b:inst4|                                                   ; 0 (0)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:inst4                                                                                                                                                ; work         ;
 ;    |74273b:inst9|                                                   ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:inst9                                                                                                                                                ; work         ;
 ;    |74273b:pc16|                                                    ; 1 (1)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:pc16                                                                                                                                                 ; work         ;
-;    |74273b:pc17|                                                    ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:pc17                                                                                                                                                 ; work         ;
 ;    |74273b:pc18|                                                    ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:pc18                                                                                                                                                 ; work         ;
 ;    |74273b:pcregester|                                              ; 2 (2)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|74273b:pcregester                                                                                                                                           ; work         ;
-;    |8bitADD:inst2|                                                  ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2                                                                                                                                               ; work         ;
-;       |8bitAdderBus:inst|                                           ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2|8bitAdderBus:inst                                                                                                                             ; work         ;
-;          |8bitAdder:inst|                                           ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2|8bitAdderBus:inst|8bitAdder:inst                                                                                                              ; work         ;
+;    |8bitADD:inst2|                                                  ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2                                                                                                                                               ; work         ;
+;       |8bitAdderBus:inst|                                           ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2|8bitAdderBus:inst                                                                                                                             ; work         ;
+;          |8bitAdder:inst|                                           ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst2|8bitAdderBus:inst|8bitAdder:inst                                                                                                              ; work         ;
 ;    |8bitADD:inst38|                                                 ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst38                                                                                                                                              ; work         ;
 ;       |8bitAdderBus:inst|                                           ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst38|8bitAdderBus:inst                                                                                                                            ; work         ;
 ;          |8bitAdder:inst|                                           ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst38|8bitAdderBus:inst|8bitAdder:inst                                                                                                             ; work         ;
@@ -359,18 +360,19 @@ applicable agreement for further details.
 ;       |8bitAdderBus:inst|                                           ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst3|8bitAdderBus:inst                                                                                                                             ; work         ;
 ;          |8bitAdder:inst|                                           ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|8bitADD:inst3|8bitAdderBus:inst|8bitAdder:inst                                                                                                              ; work         ;
 ;    |DDreg:DDreg2|                                                   ; 0 (0)             ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|DDreg:DDreg2                                                                                                                                                ; work         ;
-;    |DDreg:DDreg3|                                                   ; 0 (0)             ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|DDreg:DDreg3                                                                                                                                                ; work         ;
+;    |DDreg:DDreg3|                                                   ; 0 (0)             ; 10 (10)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|DDreg:DDreg3                                                                                                                                                ; work         ;
 ;    |DDreg:DDreg4|                                                   ; 0 (0)             ; 7 (7)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|DDreg:DDreg4                                                                                                                                                ; work         ;
-;    |chooser2:regchooser2|                                           ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|chooser2:regchooser2                                                                                                                                        ; work         ;
+;    |alu_v2:inst1|                                                   ; 29 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|alu_v2:inst1                                                                                                                                                ; work         ;
+;    |chooser2:regchooser2|                                           ; 41 (41)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|chooser2:regchooser2                                                                                                                                        ; work         ;
 ;    |clean:inst40|                                                   ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|clean:inst40                                                                                                                                                ; work         ;
-;    |cyalu:inst21|                                                   ; 612 (1)           ; 46 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21                                                                                                                                                ; work         ;
+;    |cyalu:inst21|                                                   ; 613 (1)           ; 46 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21                                                                                                                                                ; work         ;
 ;       |74273b:inst10|                                               ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|74273b:inst10                                                                                                                                  ; work         ;
 ;       |74273b:inst3|                                                ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|74273b:inst3                                                                                                                                   ; work         ;
 ;       |74273b:inst4|                                                ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|74273b:inst4                                                                                                                                   ; work         ;
 ;       |74273b:inst5|                                                ; 0 (0)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|74273b:inst5                                                                                                                                   ; work         ;
 ;       |74273b:inst9|                                                ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|74273b:inst9                                                                                                                                   ; work         ;
 ;       |alu_codex:inst|                                              ; 260 (260)         ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|alu_codex:inst                                                                                                                                 ; work         ;
-;       |chooser3:inst1|                                              ; 19 (19)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|chooser3:inst1                                                                                                                                 ; work         ;
+;       |chooser3:inst1|                                              ; 20 (20)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|chooser3:inst1                                                                                                                                 ; work         ;
 ;       |div:inst2|                                                   ; 188 (188)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|div:inst2                                                                                                                                      ; work         ;
 ;       |jjcc:inst8|                                                  ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|jjcc:inst8                                                                                                                                     ; work         ;
 ;       |mulH:inst7|                                                  ; 127 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|mulH:inst7                                                                                                                                     ; work         ;
@@ -449,25 +451,27 @@ applicable agreement for further details.
 ;                |mux_erc:auto_generated|                             ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|cyalu:inst21|mulH:inst7|busmux:inst54|lpm_mux:$00000|mux_erc:auto_generated                                                                                 ; work         ;
 ;    |diffCheck:inst22|                                               ; 4 (4)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|diffCheck:inst22                                                                                                                                            ; work         ;
 ;    |diffCheck:inst23|                                               ; 4 (4)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|diffCheck:inst23                                                                                                                                            ; work         ;
-;    |diffChoose:inst33|                                              ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|diffChoose:inst33                                                                                                                                           ; work         ;
+;    |diffChoose:inst33|                                              ; 40 (40)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|diffChoose:inst33                                                                                                                                           ; work         ;
 ;    |diffOne:inst37|                                                 ; 10 (10)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|diffOne:inst37                                                                                                                                              ; work         ;
-;    |hardCode:inst8|                                                 ; 29 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8                                                                                                                                              ; work         ;
-;       |74139m:inst|                                                 ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|74139m:inst                                                                                                                                  ; work         ;
-;       |busmux:inst1|                                                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1                                                                                                                                 ; work         ;
-;          |lpm_mux:$00000|                                           ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1|lpm_mux:$00000                                                                                                                  ; work         ;
-;             |mux_tsc:auto_generated|                                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
-;       |busmux:inst2|                                                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2                                                                                                                                 ; work         ;
-;          |lpm_mux:$00000|                                           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2|lpm_mux:$00000                                                                                                                  ; work         ;
-;             |mux_tsc:auto_generated|                                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
-;       |busmux:inst3|                                                ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3                                                                                                                                 ; work         ;
-;          |lpm_mux:$00000|                                           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3|lpm_mux:$00000                                                                                                                  ; work         ;
-;             |mux_tsc:auto_generated|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
-;       |busmux:inst4|                                                ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4                                                                                                                                 ; work         ;
-;          |lpm_mux:$00000|                                           ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4|lpm_mux:$00000                                                                                                                  ; work         ;
-;             |mux_tsc:auto_generated|                                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
-;       |lpm_or:inst5|                                                ; 18 (18)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|lpm_or:inst5                                                                                                                                 ; work         ;
-;    |iszero:inst12|                                                  ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|iszero:inst12                                                                                                                                               ; work         ;
+;    |hardCode:inst8|                                                 ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8                                                                                                                                              ; work         ;
+;       |74139m:inst|                                                 ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|74139m:inst                                                                                                                                  ; work         ;
+;       |busmux:inst1|                                                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1                                                                                                                                 ; work         ;
+;          |lpm_mux:$00000|                                           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1|lpm_mux:$00000                                                                                                                  ; work         ;
+;             |mux_tsc:auto_generated|                                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst1|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
+;       |busmux:inst2|                                                ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2                                                                                                                                 ; work         ;
+;          |lpm_mux:$00000|                                           ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2|lpm_mux:$00000                                                                                                                  ; work         ;
+;             |mux_tsc:auto_generated|                                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst2|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
+;       |busmux:inst3|                                                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3                                                                                                                                 ; work         ;
+;          |lpm_mux:$00000|                                           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3|lpm_mux:$00000                                                                                                                  ; work         ;
+;             |mux_tsc:auto_generated|                                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst3|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
+;       |busmux:inst4|                                                ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4                                                                                                                                 ; work         ;
+;          |lpm_mux:$00000|                                           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4|lpm_mux:$00000                                                                                                                  ; work         ;
+;             |mux_tsc:auto_generated|                                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|busmux:inst4|lpm_mux:$00000|mux_tsc:auto_generated                                                                                           ; work         ;
+;       |lpm_or:inst40|                                               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|lpm_or:inst40                                                                                                                                ; work         ;
+;       |lpm_or:inst5|                                                ; 19 (19)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|hardCode:inst8|lpm_or:inst5                                                                                                                                 ; work         ;
 ;    |regheap:inst10|                                                 ; 148 (148)         ; 80 (80)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|regheap:inst10                                                                                                                                              ; work         ;
+;    |rgboutPUT:inst11|                                               ; 1 (1)             ; 10 (2)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|rgboutPUT:inst11                                                                                                                                            ; work         ;
+;       |74273b:inst20|                                               ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|rgboutPUT:inst11|74273b:inst20                                                                                                                              ; work         ;
 ;    |romCode:codeRom|                                                ; 75 (0)            ; 44 (0)       ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|romCode:codeRom                                                                                                                                             ; work         ;
 ;       |altsyncram:altsyncram_component|                             ; 75 (0)            ; 44 (0)       ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|romCode:codeRom|altsyncram:altsyncram_component                                                                                                             ; work         ;
 ;          |altsyncram_43u3:auto_generated|                           ; 75 (0)            ; 44 (0)       ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated                                                                              ; work         ;
@@ -480,11 +484,29 @@ applicable agreement for further details.
 ;             |altsyncram_1or2:altsyncram1|                           ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|altsyncram_1or2:altsyncram1                                                       ; work         ;
 ;             |sld_mod_ram_rom:mgl_prim2|                             ; 58 (36)           ; 34 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2                                                         ; work         ;
 ;                |sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr| ; 22 (22)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr      ; work         ;
-;    |swapit:inst5|                                                   ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|swapit:inst5                                                                                                                                                ; work         ;
-;    |twoOne:inst32|                                                  ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|twoOne:inst32                                                                                                                                               ; work         ;
-;       |myand:inst|                                                  ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|twoOne:inst32|myand:inst                                                                                                                                    ; work         ;
+;    |swapit:inst5|                                                   ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|swapit:inst5                                                                                                                                                ; work         ;
+;    |twoOne:inst32|                                                  ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|twoOne:inst32                                                                                                                                               ; work         ;
+;       |myand:inst|                                                  ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|twoOne:inst32|myand:inst                                                                                                                                    ; work         ;
 +---------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++----------------------------------------------------+----------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal  ; Free of Timing Hazards ;
++----------------------------------------------------+----------------------+------------------------+
+; alu_v2:inst1|out[7]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[6]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[5]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[4]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[3]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[2]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[1]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; alu_v2:inst1|out[0]                                ; alu_v2:inst1|WideOr0 ; yes                    ;
+; Number of user-specified and inferred latches = 8  ;                      ;                        ;
++----------------------------------------------------+----------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------------+
@@ -514,26 +536,27 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |cpu|cyalu:inst21|74273b:inst9|17                                                                                                                                                ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |cpu|74273b:inst4|17                                                                                                                                                             ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |cpu|cyalu:inst21|74273b:inst9|12                                                                                                                                                ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |cpu|74273b:pcregester|19                                                                                                                                                        ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[2]                                     ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[4]                                                ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3]                                          ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[1]                                                     ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[1]                                     ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[2]                                                ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[0]                                          ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[4]                                                     ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[4]                                                ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                     ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |cpu|cyalu:inst21|74273b:inst10|19                                                                                                                                               ;
-; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[3] ;
-; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[0]      ;
-; 24:1               ; 4 bits    ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[2]      ;
-; 24:1               ; 4 bits    ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[3]           ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|diffChoose:inst33|b[1]                                                                                                                                                      ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|diffChoose:inst33|a[7]                                                                                                                                                      ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|chooser2:regchooser2|Mux4                                                                                                                                                   ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|chooser2:regchooser2|Mux14                                                                                                                                                  ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |cpu|cyalu:inst21|74273b:inst10|16                                                                                                                                               ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[1] ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[4]      ;
+; 24:1               ; 4 bits    ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; Yes        ; |cpu|romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[3]      ;
+; 24:1               ; 4 bits    ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; Yes        ; |cpu|rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[2]           ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|diffChoose:inst33|b[3]                                                                                                                                                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|diffChoose:inst33|a[3]                                                                                                                                                      ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |cpu|swapit:inst5|Mux0                                                                                                                                                           ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|chooser2:regchooser2|Mux7                                                                                                                                                   ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|chooser2:regchooser2|Mux8                                                                                                                                                   ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |cpu|chooser2:regchooser2|Mux16                                                                                                                                                  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; No         ; |cpu|cyalu:inst21|chooser3:inst1|d[5]                                                                                                                                            ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; No         ; |cpu|cyalu:inst21|chooser3:inst1|d[2]                                                                                                                                            ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 16 LEs               ; 32 LEs                 ; No         ; |cpu|alu_v2:inst1|Selector3                                                                                                                                                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -1045,16 +1068,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub24|lpm_constant:LPM_CONSTANT_component ;
-+--------------------+------------------+----------------------------------------------------------------------------------+
-; Parameter Name     ; Value            ; Type                                                                             ;
-+--------------------+------------------+----------------------------------------------------------------------------------+
-; LPM_WIDTH          ; 6                ; Signed Integer                                                                   ;
-; LPM_CVALUE         ; 6                ; Signed Integer                                                                   ;
-; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                                                          ;
-; CBXI_PARAMETER     ; lpm_constant_uf6 ; Untyped                                                                          ;
-+--------------------+------------------+----------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst80 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1114,6 +1134,114 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst83 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst86 ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; WIDTH          ; 16    ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu_v2:inst1 ;
++----------------+--------+---------------------------------+
+; Parameter Name ; Value  ; Type                            ;
++----------------+--------+---------------------------------+
+; Beq            ; 001000 ; Unsigned Binary                 ;
+; Bne            ; 001001 ; Unsigned Binary                 ;
+; Jr             ; 001010 ; Unsigned Binary                 ;
+; Beqz           ; 001011 ; Unsigned Binary                 ;
+; Benz           ; 001100 ; Unsigned Binary                 ;
++----------------+--------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: chooser2:regchooser2 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; zero           ; 00    ; Unsigned Binary                          ;
+; dt             ; 01    ; Unsigned Binary                          ;
+; yzab           ; 10    ; Unsigned Binary                          ;
+; xzab           ; 11    ; Unsigned Binary                          ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-----------------------------+
+; Parameter Name                     ; Value                ; Type                        ;
++------------------------------------+----------------------+-----------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                     ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                  ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE              ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                     ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                     ;
+; WIDTH_A                            ; 8                    ; Signed Integer              ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer              ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer              ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                     ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                     ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                     ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                     ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                     ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                     ;
+; WIDTH_B                            ; 1                    ; Signed Integer              ;
+; WIDTHAD_B                          ; 1                    ; Signed Integer              ;
+; NUMWORDS_B                         ; 0                    ; Signed Integer              ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                     ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                     ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                     ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                     ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                     ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                     ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                     ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                     ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                     ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                     ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer              ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer              ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                     ;
+; BYTE_SIZE                          ; 8                    ; Signed Integer              ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
+; INIT_FILE                          ; rrr.hex              ; Untyped                     ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                     ;
+; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer              ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                     ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                     ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                     ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                     ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                     ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                     ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                     ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer              ;
+; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                     ;
+; CBXI_PARAMETER                     ; altsyncram_5cu3      ; Untyped                     ;
++------------------------------------+----------------------+-----------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1243,80 +1371,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: chooser2:regchooser2 ;
-+----------------+-------+------------------------------------------+
-; Parameter Name ; Value ; Type                                     ;
-+----------------+-------+------------------------------------------+
-; zero           ; 00    ; Unsigned Binary                          ;
-; dt             ; 01    ; Unsigned Binary                          ;
-; yzab           ; 10    ; Unsigned Binary                          ;
-; xzab           ; 11    ; Unsigned Binary                          ;
-+----------------+-------+------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component ;
-+------------------------------------+----------------------+-----------------------------+
-; Parameter Name                     ; Value                ; Type                        ;
-+------------------------------------+----------------------+-----------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                     ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                  ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE              ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped                     ;
-; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                     ;
-; WIDTH_A                            ; 8                    ; Signed Integer              ;
-; WIDTHAD_A                          ; 8                    ; Signed Integer              ;
-; NUMWORDS_A                         ; 256                  ; Signed Integer              ;
-; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                     ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                     ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                     ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                     ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped                     ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                     ;
-; WIDTH_B                            ; 1                    ; Signed Integer              ;
-; WIDTHAD_B                          ; 1                    ; Signed Integer              ;
-; NUMWORDS_B                         ; 0                    ; Signed Integer              ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped                     ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                     ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                     ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                     ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                     ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                     ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped                     ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                     ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                     ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                     ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                     ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer              ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer              ;
-; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                     ;
-; BYTE_SIZE                          ; 8                    ; Signed Integer              ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                     ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
-; INIT_FILE                          ; rrr.hex              ; Untyped                     ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                     ;
-; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer              ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                     ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                     ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                     ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                     ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                     ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                     ;
-; ENABLE_ECC                         ; FALSE                ; Untyped                     ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                     ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer              ;
-; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                     ;
-; CBXI_PARAMETER                     ; altsyncram_5cu3      ; Untyped                     ;
-+------------------------------------+----------------------+-----------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------------------------------------------------------------------+
 ; Partition Dependent Files                                                                                       ;
 +-----------------------------------------------+--------------------+---------+----------------------------------+
@@ -1349,11 +1403,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; 8bitadder.bdf                                 ; Project Directory  ; work    ; 09195aa7eb840836037158595137af2d ;
 ; 8bitadderbus.bdf                              ; Project Directory  ; work    ; e3f3d440628c0d51cae212c78de90f30 ;
 ; alu_codex.v                                   ; Project Directory  ; work    ; e52acab1ca5b64a3940220c3603566e9 ;
+; alu_v2.v                                      ; Project Directory  ; work    ; 8de2ef67cc811723d3ab1fd99d90de20 ;
 ; chooser2.v                                    ; Project Directory  ; work    ; 9e549a947900304f4c8bbeac850d122e ;
 ; chooser3.v                                    ; Project Directory  ; work    ; 160f7cd324807058bb2306e3201b9d0d ;
 ; clean.v                                       ; Project Directory  ; work    ; f5eaa71ff58fdd01d58476749a811cdd ;
-; cpu.bdf                                       ; Project Directory  ; work    ; 5609ac8a83e12ee2d91e18223c00711c ;
-; cyalu.bdf                                     ; Project Directory  ; work    ; 4d4096e6348fde33e23ee6e97cd188c1 ;
+; cpu.bdf                                       ; Project Directory  ; work    ; 3837869eddf63fff9c065fd234f31201 ;
+; cyalu.bdf                                     ; Project Directory  ; work    ; ec47f6d93585d69edc1daaf3b9421c78 ;
 ; d13.v                                         ; Project Directory  ; work    ; b4c827dc82cc2f0798f56a22eeb231c2 ;
 ; d8.v                                          ; Project Directory  ; work    ; 121996663764abb1fcae721678170afa ;
 ; db/altsyncram_1or2.tdf                        ; Project Directory  ; work    ; 71bddeda2ec1778185f9ca8a531a9ae7 ;
@@ -1367,9 +1422,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; diffcheck.v                                   ; Project Directory  ; work    ; 3f2b3b957b7399f52fde58459073ad90 ;
 ; diffchoose.v                                  ; Project Directory  ; work    ; f33278cc31d4b941dd8286d22db36cec ;
 ; diffone.v                                     ; Project Directory  ; work    ; 71981c3181c3a164df6e15e51677b2ca ;
-; div.v                                         ; Project Directory  ; work    ; c89fb4b684cf5c91061e6a6ff00236ba ;
-; hardCode.bdf                                  ; Project Directory  ; work    ; c9d8ff8fc2dd36d6c6f8024347cf0aed ;
-; iszero.v                                      ; Project Directory  ; work    ; fbe0726322e3a6b09a9aa8cd344b2c65 ;
+; div.v                                         ; Project Directory  ; work    ; 53629199372cec7d8c26e15b9d6f0d15 ;
+; hardCode.bdf                                  ; Project Directory  ; work    ; 0cf4037b2ca2f7326e85cff0224bab9d ;
 ; jjcc.v                                        ; Project Directory  ; work    ; 4abf70ab9c3cd5db0fe3ab627468c008 ;
 ; lpm_constant0.vhd                             ; Project Directory  ; work    ; 76eeb6351abc118641628eb0990ccdd1 ;
 ; lpm_constant2.vhd                             ; Project Directory  ; work    ; 5a8d1a63530f5f9ecf22149afaa63b4b ;
@@ -1382,11 +1436,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; myand.v                                       ; Project Directory  ; work    ; 4622b550661c78fc429816b2d577d378 ;
 ; outputone.bdf                                 ; Project Directory  ; work    ; e93205c19344d45555316588730731ef ;
 ; regheap.v                                     ; Project Directory  ; work    ; b59c5665490ec4ecded00aa2b041b787 ;
-; romCode.hex                                   ; Project Directory  ; work    ; 7e9e4f21bfec9ce40ff651b93a6a819a ;
+; rgboutPUT.bdf                                 ; Project Directory  ; work    ; 11ce6886437a91ed6c66392c3441a17b ;
+; romCode.hex                                   ; Project Directory  ; work    ; a68a636539cc73b2b44f3d31cbe2a76b ;
 ; romcode.vhd                                   ; Project Directory  ; work    ; 12c9168bd9d04bb997752102513f43f0 ;
 ; rrr.hex                                       ; Project Directory  ; work    ; 653e40aeeab91ccd6031e50d44dde467 ;
 ; rrr.vhd                                       ; Project Directory  ; work    ; 960ca742f7c5975d5c4fc0dfcaf0ad2e ;
-; swapit.v                                      ; Project Directory  ; work    ; 7f8f4fbe94ec2fc685f1c60f470297f7 ;
+; swapit.v                                      ; Project Directory  ; work    ; 410d345454ca3d101b67cee2034e6bf7 ;
 ; twoone.bdf                                    ; Project Directory  ; work    ; 39b1f87499e65dfd65347af64413d1a5 ;
 +-----------------------------------------------+--------------------+---------+----------------------------------+
 
@@ -1396,9 +1451,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                           ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                          ; Library Name ;
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
-; |cpu                                                 ; 157 (0)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                         ; work         ;
-;    |sld_hub:auto_hub|                                ; 157 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub                                                                        ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst| ; 156 (118)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                           ; work         ;
+; |cpu                                                 ; 158 (0)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                         ; work         ;
+;    |sld_hub:auto_hub|                                ; 158 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub                                                                        ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst| ; 157 (119)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                           ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                   ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg   ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                 ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm ; work         ;
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
@@ -1418,7 +1473,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[2][1]                    ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                    ;
 ; 8:1                ; 5 bits    ; 25 LEs        ; 10 LEs               ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[3]                             ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 64 LEs               ; 24 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                      ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 60 LEs               ; 28 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                      ;
 ; 28:1               ; 4 bits    ; 72 LEs        ; 36 LEs               ; 36 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
 
@@ -1439,11 +1494,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Wed Nov 13 19:33:52 2019
+    Info: Processing started: Thu Nov 14 02:54:06 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file backup.bdf
-    Info (12023): Found entity 1: backup
+Warning (12019): Can't analyze file -- file backup.bdf is missing
 Info (12021): Found 2 design units, including 1 entities, in source file lpm_constant0.vhd
     Info (12022): Found design unit 1: lpm_constant0-SYN
     Info (12023): Found entity 1: lpm_constant0
@@ -1471,6 +1525,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file lpm_con
     Info (12023): Found entity 1: lpm_constantslt
 Info (12021): Found 1 design units, including 1 entities, in source file clean.v
     Info (12023): Found entity 1: clean
+Info (12021): Found 1 design units, including 1 entities, in source file rgboutput.bdf
+    Info (12023): Found entity 1: rgboutPUT
 Warning (12125): Using design file cpu.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: cpu
 Info (12127): Elaborating entity "cpu" for the top level hierarchy
@@ -1483,18 +1539,6 @@ Warning (12125): Using design file swapit.v, which is not specified as a design 
 Info (12128): Elaborating entity "swapit" for hierarchy "swapit:inst5"
 Critical Warning (10169): Verilog HDL warning at swapit.v(7): the port and data declarations for array port "d" do not specify the same range for each dimension
 Warning (10359): HDL warning at swapit.v(11): see declaration for object "d"
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(21): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(22): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(23): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(28): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(29): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(30): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(31): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(36): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(37): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(38): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(43): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
-Warning (10235): Verilog HDL Always Construct warning at swapit.v(45): variable "x" is read inside the Always Construct but isn't in the Always Construct's Event Control
 Warning (12125): Using design file romcode.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: romcode-SYN
     Info (12023): Found entity 1: romCode
@@ -1721,6 +1765,10 @@ Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:i
 Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst37"
 Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst37" with the following parameter:
     Info (12134): Parameter "WIDTH" = "16"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:inst80"
+Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst80"
+Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst80" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "16"
 Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:inst42"
 Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst42"
 Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst42" with the following parameter:
@@ -1732,6 +1780,14 @@ Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst45" with the 
 Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:inst48"
 Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst48"
 Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst48" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "16"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:inst83"
+Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst83"
+Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst83" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "16"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "hardCode:inst8|BUSMUX:inst86"
+Info (12130): Elaborated megafunction instantiation "hardCode:inst8|BUSMUX:inst86"
+Info (12133): Instantiated megafunction "hardCode:inst8|BUSMUX:inst86" with the following parameter:
     Info (12134): Parameter "WIDTH" = "16"
 Warning (12125): Using design file 8bitadd.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: 8bitADD
@@ -1750,39 +1806,19 @@ Warning (275011): Block or symbol "AND2" of instance "inst43" overlaps another b
 Warning (275011): Block or symbol "AND4" of instance "inst45" overlaps another block or symbol
 Warning (275011): Block or symbol "AND6" of instance "inst47" overlaps another block or symbol
 Warning (275011): Block or symbol "AND12" of instance "inst49" overlaps another block or symbol
-Warning (12125): Using design file iszero.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: iszero
-Info (12128): Elaborating entity "iszero" for hierarchy "iszero:inst12"
-Warning (12125): Using design file cyalu.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: cyalu
-Info (12128): Elaborating entity "cyalu" for hierarchy "cyalu:inst21"
-Warning (12125): Using design file chooser3.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: chooser3
-Info (12128): Elaborating entity "chooser3" for hierarchy "cyalu:inst21|chooser3:inst1"
-Warning (12125): Using design file jjcc.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: jjcc
-Info (12128): Elaborating entity "jjcc" for hierarchy "cyalu:inst21|jjcc:inst8"
-Warning (12125): Using design file alu_codex.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: alu_codex
-Info (12128): Elaborating entity "alu_codex" for hierarchy "cyalu:inst21|alu_codex:inst"
-Warning (12125): Using design file mulh.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mulH
-Info (12128): Elaborating entity "mulH" for hierarchy "cyalu:inst21|mulH:inst7"
-Warning (275011): Block or symbol "74183o" of instance "inst11" overlaps another block or symbol
-Info (12128): Elaborating entity "74183o" for hierarchy "cyalu:inst21|mulH:inst7|74183o:inst37"
-Info (12130): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|74183o:inst37"
-Info (12128): Elaborating entity "BUSMUX" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
-Info (12130): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
-Info (12133): Instantiated megafunction "cyalu:inst21|mulH:inst7|BUSMUX:inst54" with the following parameter:
-    Info (12134): Parameter "WIDTH" = "8"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000"
-Info (12131): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000", which is child of megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_erc.tdf
-    Info (12023): Found entity 1: mux_erc
-Info (12128): Elaborating entity "mux_erc" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000|mux_erc:auto_generated"
-Warning (12125): Using design file div.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: div
-Info (12128): Elaborating entity "div" for hierarchy "cyalu:inst21|div:inst2"
+Warning (12125): Using design file alu_v2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: alu_v2
+Info (12128): Elaborating entity "alu_v2" for hierarchy "alu_v2:inst1"
+Warning (10270): Verilog HDL Case Statement warning at alu_v2.v(15): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at alu_v2.v(15): inferring latch(es) for variable "out", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "out[0]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[1]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[2]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[3]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[4]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[5]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[6]" at alu_v2.v(15)
+Info (10041): Inferred latch for "out[7]" at alu_v2.v(15)
 Warning (12125): Using design file chooser2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: chooser2
 Info (12128): Elaborating entity "chooser2" for hierarchy "chooser2:regchooser2"
@@ -1792,6 +1828,9 @@ Info (12128): Elaborating entity "diffChoose" for hierarchy "diffChoose:inst33"
 Warning (12125): Using design file diffcheck.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: diffCheck
 Info (12128): Elaborating entity "diffCheck" for hierarchy "diffCheck:inst23"
+Warning (12125): Using design file d8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: d8
+Info (12128): Elaborating entity "d8" for hierarchy "d8:inst14"
 Warning (12125): Using design file regheap.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: regheap
 Info (12128): Elaborating entity "regheap" for hierarchy "regheap:inst10"
@@ -1869,6 +1908,36 @@ Info (12133): Instantiated megafunction "rrr:inst16|altsyncram:altsyncram_compon
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "4"
     Info (12134): Parameter "WIDTH_WORD" = "8"
     Info (12134): Parameter "WIDTHAD" = "8"
+Warning (12125): Using design file cyalu.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: cyalu
+Info (12128): Elaborating entity "cyalu" for hierarchy "cyalu:inst21"
+Warning (12125): Using design file chooser3.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: chooser3
+Info (12128): Elaborating entity "chooser3" for hierarchy "cyalu:inst21|chooser3:inst1"
+Warning (12125): Using design file jjcc.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: jjcc
+Info (12128): Elaborating entity "jjcc" for hierarchy "cyalu:inst21|jjcc:inst8"
+Warning (12125): Using design file alu_codex.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: alu_codex
+Info (12128): Elaborating entity "alu_codex" for hierarchy "cyalu:inst21|alu_codex:inst"
+Warning (12125): Using design file mulh.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: mulH
+Info (12128): Elaborating entity "mulH" for hierarchy "cyalu:inst21|mulH:inst7"
+Warning (275011): Block or symbol "74183o" of instance "inst11" overlaps another block or symbol
+Info (12128): Elaborating entity "74183o" for hierarchy "cyalu:inst21|mulH:inst7|74183o:inst37"
+Info (12130): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|74183o:inst37"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
+Info (12130): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
+Info (12133): Instantiated megafunction "cyalu:inst21|mulH:inst7|BUSMUX:inst54" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "8"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000"
+Info (12131): Elaborated megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000", which is child of megafunction instantiation "cyalu:inst21|mulH:inst7|BUSMUX:inst54"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_erc.tdf
+    Info (12023): Found entity 1: mux_erc
+Info (12128): Elaborating entity "mux_erc" for hierarchy "cyalu:inst21|mulH:inst7|BUSMUX:inst54|lpm_mux:$00000|mux_erc:auto_generated"
+Warning (12125): Using design file div.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: div
+Info (12128): Elaborating entity "div" for hierarchy "cyalu:inst21|div:inst2"
 Warning (12125): Using design file diffone.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: diffOne
 Info (12128): Elaborating entity "diffOne" for hierarchy "diffOne:inst37"
@@ -1878,19 +1947,17 @@ Info (12128): Elaborating entity "outputOne" for hierarchy "outputOne:inst6"
 Warning (12125): Using design file d13.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: d13
 Info (12128): Elaborating entity "d13" for hierarchy "d13:inst17"
-Warning (12125): Using design file d8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: d8
-Info (12128): Elaborating entity "d8" for hierarchy "d8:inst36"
+Info (12128): Elaborating entity "rgboutPUT" for hierarchy "rgboutPUT:inst11"
 Info (12206): 0 design partitions require synthesis
 Info (12208): 2 design partitions do not require synthesis
     Info (12229): Partition "Top" does not require synthesis because there were no relevant design changes
     Info (12229): Partition "sld_hub:auto_hub" does not require synthesis because there were no relevant design changes
 Info (144001): Generated suppressed messages file D:/Github/asamplecpu/t6/cpu.map.smsg
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 48 warnings
-    Info: Peak virtual memory: 4708 megabytes
-    Info: Processing ended: Wed Nov 13 19:33:54 2019
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 39 warnings
+    Info: Peak virtual memory: 4709 megabytes
+    Info: Processing ended: Thu Nov 14 02:54:09 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +------------------------------------------+

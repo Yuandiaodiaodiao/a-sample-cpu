@@ -4,8 +4,8 @@ Info: Start Nativelink Simulation process
 
 Sim Mode              :  Gate
 Family                :  cycloneive
-Quartus root          :  c:/altera/13.1/quartus/bin64/
-Quartus sim root      :  c:/altera/13.1/quartus/eda/sim_lib
+Quartus root          :  d:/altera/13.1/quartus/bin64/
+Quartus sim root      :  d:/altera/13.1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  verilog
 Simulation Mode       :  GUI
@@ -16,5 +16,51 @@ Sim dir               :  simulation\modelsim
 =======================================================
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
-Sourced NativeLink script c:/altera/13.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Info: Spawning ModelSim-Altera Simulation software 
+Sourced NativeLink script d:/altera/13.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Probing transcript
+ModelSim-Altera Info: # Reading D:/altera/13.0sp1/modelsim_ae/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do cpu_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying D:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied D:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {cpu.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module cpu
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	cpu
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Load canceled
+ModelSim-Altera Info: vlog -reportprogress 300 -work work D:/Github/asamplecpu/t6/simulation/qsim/Waveform3.vwf.vt
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_sample_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_check_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_vec_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	cpu_vlg_vec_tst
+ModelSim-Altera Info: vlog -reportprogress 30 -work work D:/Github/asamplecpu/t6/simulation/qsim/Waveform3.vwf.vt
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_sample_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_check_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_vec_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	cpu_vlg_vec_tst
+ModelSim-Altera Info: vlog -reportprogress 300 -work work D:/Github/asamplecpu/t6/simulation/qsim/Waveform3.vwf.vt
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_sample_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_check_tst
+ModelSim-Altera Info: # -- Compiling module cpu_vlg_vec_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	cpu_vlg_vec_tst
+ModelSim-Altera Info: # Load canceled
+Info: NativeLink simulation flow was successful

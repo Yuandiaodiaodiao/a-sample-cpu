@@ -2,4 +2,4 @@ Info (10281): Verilog HDL Declaration information at swapit.v(4): object "a" dif
 Info (10281): Verilog HDL Declaration information at swapit.v(5): object "b" differs only in case from object "B" in the same scope
 Info (10281): Verilog HDL Declaration information at swapit.v(6): object "c" differs only in case from object "C" in the same scope
 Info (10281): Verilog HDL Declaration information at swapit.v(7): object "d" differs only in case from object "D" in the same scope
-Warning (10268): Verilog HDL information at div.v(23): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at div.v(22): always construct contains both blocking and non-blocking assignments
