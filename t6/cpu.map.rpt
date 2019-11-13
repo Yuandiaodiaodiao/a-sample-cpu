@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpu
-Tue Nov 12 21:39:45 2019
+Wed Nov 13 19:33:54 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -76,12 +76,11 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
  68. Parameter Settings for User Entity Instance: chooser2:regchooser2
  69. Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component
  70. Partition Dependent Files
- 71. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 72. SignalTap II Logic Analyzer Settings
+ 71. Partition "sld_hub:auto_hub" Resource Utilization by Entity
+ 72. Multiplexer Restructuring Statistics (Restructuring Performed)
  73. In-System Memory Content Editor Settings
- 74. Elapsed Time Per Partition
- 75. Analysis & Synthesis Messages
- 76. Analysis & Synthesis Suppressed Messages
+ 74. Analysis & Synthesis Messages
+ 75. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -107,7 +106,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 12 21:39:44 2019       ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov 13 19:33:54 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; cpu                                         ;
 ; Top-level Entity Name              ; cpu                                         ;
@@ -216,157 +215,123 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.44        ;
-; Maximum used               ; 2           ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  44.4%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                ; Library ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------+---------+
-; romCode.hex                      ; yes             ; User Hexadecimal (Intel-Format) File     ; D:/GitHub/quartus/t6/romCode.hex                                            ;         ;
-; lpm_constant0.vhd                ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constant0.vhd                                      ;         ;
-; lpm_constant2.vhd                ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constant2.vhd                                      ;         ;
-; 74138b.bdf                       ; yes             ; User Block Diagram/Schematic File        ; D:/GitHub/quartus/t6/74138b.bdf                                             ;         ;
-; lpm_constant3.vhd                ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constant3.vhd                                      ;         ;
-; lpm_constantor.vhd               ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constantor.vhd                                     ;         ;
-; hardCode.bdf                     ; yes             ; User Block Diagram/Schematic File        ; D:/GitHub/quartus/t6/hardCode.bdf                                           ;         ;
-; lpm_constantnor.vhd              ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constantnor.vhd                                    ;         ;
-; lpm_constantxor.vhd              ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constantxor.vhd                                    ;         ;
-; lpm_constantslt.vhd              ; yes             ; User Wizard-Generated File               ; D:/GitHub/quartus/t6/lpm_constantslt.vhd                                    ;         ;
-; clean.v                          ; yes             ; User Verilog HDL File                    ; D:/GitHub/quartus/t6/clean.v                                                ;         ;
-; cpu.bdf                          ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/cpu.bdf                                                ;         ;
-; ddreg.v                          ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/ddreg.v                                                ;         ;
-; swapit.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/swapit.v                                               ;         ;
-; romcode.vhd                      ; yes             ; Auto-Found Wizard-Generated File         ; D:/GitHub/quartus/t6/romcode.vhd                                            ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf               ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc        ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                  ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc               ;         ;
-; aglobal131.inc                   ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc               ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                ;         ;
-; altrom.inc                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                   ;         ;
-; altram.inc                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                   ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                 ;         ;
-; db/altsyncram_43u3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/altsyncram_43u3.tdf                                 ;         ;
-; db/altsyncram_7iu2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/altsyncram_7iu2.tdf                                 ;         ;
-; sld_mod_ram_rom.vhd              ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd          ;         ;
-; sld_rom_sr.vhd                   ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_rom_sr.vhd               ;         ;
-; 74273b.bdf                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/others/maxplus2/74273b.bdf                 ;         ;
-; twoone.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/twoone.bdf                                             ;         ;
-; myand.v                          ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/myand.v                                                ;         ;
-; lpm_or.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_or.tdf                   ;         ;
-; busmux.tdf                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/busmux.tdf                   ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.tdf                  ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/muxlut.inc                   ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc                 ;         ;
-; altshift.inc                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc                 ;         ;
-; db/mux_tsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/mux_tsc.tdf                                         ;         ;
-; 74139m.bdf                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/others/maxplus2/74139m.bdf                 ;         ;
-; db/mux_crc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/mux_crc.tdf                                         ;         ;
-; 74138.bdf                        ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/others/maxplus2/74138.bdf                  ;         ;
-; lpm_constant.tdf                 ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_constant.tdf             ;         ;
-; 8bitadd.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/8bitadd.bdf                                            ;         ;
-; 8bitadderbus.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/8bitadderbus.bdf                                       ;         ;
-; 8bitadder.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/8bitadder.bdf                                          ;         ;
-; iszero.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/iszero.v                                               ;         ;
-; cyalu.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/cyalu.bdf                                              ;         ;
-; chooser3.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/chooser3.v                                             ;         ;
-; jjcc.v                           ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/jjcc.v                                                 ;         ;
-; alu_codex.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/alu_codex.v                                            ;         ;
-; mulh.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/mulh.bdf                                               ;         ;
-; 74183o.bdf                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/others/maxplus2/74183o.bdf                 ;         ;
-; db/mux_erc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/mux_erc.tdf                                         ;         ;
-; div.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/div.v                                                  ;         ;
-; chooser2.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/chooser2.v                                             ;         ;
-; diffchoose.v                     ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/diffchoose.v                                           ;         ;
-; diffcheck.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/diffcheck.v                                            ;         ;
-; regheap.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/regheap.v                                              ;         ;
-; rrr.vhd                          ; yes             ; Auto-Found Wizard-Generated File         ; D:/GitHub/quartus/t6/rrr.vhd                                                ;         ;
-; db/altsyncram_5cu3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/altsyncram_5cu3.tdf                                 ;         ;
-; db/altsyncram_1or2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/altsyncram_1or2.tdf                                 ;         ;
-; rrr.hex                          ; yes             ; Auto-Found Memory Initialization File    ; D:/GitHub/quartus/t6/rrr.hex                                                ;         ;
-; diffone.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/diffone.v                                              ;         ;
-; outputone.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/GitHub/quartus/t6/outputone.bdf                                          ;         ;
-; d13.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/d13.v                                                  ;         ;
-; d8.v                             ; yes             ; Auto-Found Verilog HDL File              ; D:/GitHub/quartus/t6/d8.v                                                   ;         ;
-; sld_signaltap.vhd                ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/sld_signaltap.vhd            ;         ;
-; sld_signaltap_impl.vhd           ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd       ;         ;
-; sld_ela_control.vhd              ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_ela_control.vhd          ;         ;
-; lpm_shiftreg.tdf                 ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf             ;         ;
-; lpm_constant.inc                 ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_constant.inc             ;         ;
-; dffeea.inc                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/dffeea.inc                   ;         ;
-; sld_mbpmg.vhd                    ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                ;         ;
-; sld_ela_trigger_flow_mgr.vhd     ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd ;         ;
-; sld_buffer_manager.vhd           ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd       ;         ;
-; db/altsyncram_ou14.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/altsyncram_ou14.tdf                                 ;         ;
-; altdpram.tdf                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.tdf                 ;         ;
-; memmodes.inc                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/others/maxplus2/memmodes.inc               ;         ;
-; a_hdffe.inc                      ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/a_hdffe.inc                  ;         ;
-; alt_le_rden_reg.inc              ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc          ;         ;
-; altsyncram.inc                   ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.inc               ;         ;
-; db/mux_usc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/mux_usc.tdf                                         ;         ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.tdf               ;         ;
-; declut.inc                       ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/declut.inc                   ;         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_compare.inc              ;         ;
-; db/decode_dvf.tdf                ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/decode_dvf.tdf                                      ;         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_counter.tdf              ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc              ;         ;
-; cmpconst.inc                     ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/cmpconst.inc                 ;         ;
-; lpm_counter.inc                  ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_counter.inc              ;         ;
-; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; c:/altera/13.1/quartus/libraries/megafunctions/alt_counter_stratix.inc      ;         ;
-; db/cntr_ogi.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cntr_ogi.tdf                                        ;         ;
-; db/cmpr_tgc.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cmpr_tgc.tdf                                        ;         ;
-; db/cntr_l6j.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cntr_l6j.tdf                                        ;         ;
-; db/cntr_hgi.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cntr_hgi.tdf                                        ;         ;
-; db/cmpr_rgc.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cmpr_rgc.tdf                                        ;         ;
-; db/cntr_23j.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cntr_23j.tdf                                        ;         ;
-; db/cmpr_ngc.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/GitHub/quartus/t6/db/cmpr_ngc.tdf                                        ;         ;
-; sld_hub.vhd                      ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd                  ;         ;
-; sld_jtag_hub.vhd                 ; yes             ; Encrypted Megafunction                   ; c:/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd             ;         ;
-+----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                         ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------+---------+
+; romCode.hex                      ; yes             ; User Hexadecimal (Intel-Format) File     ; D:/Github/asamplecpu/t6/romCode.hex                                  ;         ;
+; lpm_constant0.vhd                ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constant0.vhd                            ;         ;
+; lpm_constant2.vhd                ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constant2.vhd                            ;         ;
+; 74138b.bdf                       ; yes             ; User Block Diagram/Schematic File        ; D:/Github/asamplecpu/t6/74138b.bdf                                   ;         ;
+; lpm_constant3.vhd                ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constant3.vhd                            ;         ;
+; lpm_constantor.vhd               ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantor.vhd                           ;         ;
+; hardCode.bdf                     ; yes             ; User Block Diagram/Schematic File        ; D:/Github/asamplecpu/t6/hardCode.bdf                                 ;         ;
+; lpm_constantnor.vhd              ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantnor.vhd                          ;         ;
+; lpm_constantxor.vhd              ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantxor.vhd                          ;         ;
+; lpm_constantslt.vhd              ; yes             ; User Wizard-Generated File               ; D:/Github/asamplecpu/t6/lpm_constantslt.vhd                          ;         ;
+; clean.v                          ; yes             ; User Verilog HDL File                    ; D:/Github/asamplecpu/t6/clean.v                                      ;         ;
+; cpu.bdf                          ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/cpu.bdf                                      ;         ;
+; ddreg.v                          ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/ddreg.v                                      ;         ;
+; swapit.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/swapit.v                                     ;         ;
+; romcode.vhd                      ; yes             ; Auto-Found Wizard-Generated File         ; D:/Github/asamplecpu/t6/romcode.vhd                                  ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal131.inc                   ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_43u3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_43u3.tdf                       ;         ;
+; db/altsyncram_7iu2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_7iu2.tdf                       ;         ;
+; sld_mod_ram_rom.vhd              ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd   ;         ;
+; sld_rom_sr.vhd                   ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_rom_sr.vhd        ;         ;
+; 74273b.bdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/others/maxplus2/74273b.bdf          ;         ;
+; twoone.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/twoone.bdf                                   ;         ;
+; myand.v                          ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/myand.v                                      ;         ;
+; lpm_or.tdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/lpm_or.tdf            ;         ;
+; busmux.tdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/busmux.tdf            ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.tdf           ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/muxlut.inc            ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc          ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/altshift.inc          ;         ;
+; db/mux_tsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/mux_tsc.tdf                               ;         ;
+; 74139m.bdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/others/maxplus2/74139m.bdf          ;         ;
+; db/mux_crc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/mux_crc.tdf                               ;         ;
+; 74138.bdf                        ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/others/maxplus2/74138.bdf           ;         ;
+; lpm_constant.tdf                 ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/megafunctions/lpm_constant.tdf      ;         ;
+; 8bitadd.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadd.bdf                                  ;         ;
+; 8bitadderbus.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadderbus.bdf                             ;         ;
+; 8bitadder.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/8bitadder.bdf                                ;         ;
+; iszero.v                         ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/iszero.v                                     ;         ;
+; cyalu.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/cyalu.bdf                                    ;         ;
+; chooser3.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/chooser3.v                                   ;         ;
+; jjcc.v                           ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/jjcc.v                                       ;         ;
+; alu_codex.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/alu_codex.v                                  ;         ;
+; mulh.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/mulh.bdf                                     ;         ;
+; 74183o.bdf                       ; yes             ; Megafunction                             ; d:/altera/13.1/quartus/libraries/others/maxplus2/74183o.bdf          ;         ;
+; db/mux_erc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/mux_erc.tdf                               ;         ;
+; div.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/div.v                                        ;         ;
+; chooser2.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/chooser2.v                                   ;         ;
+; diffchoose.v                     ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffchoose.v                                 ;         ;
+; diffcheck.v                      ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffcheck.v                                  ;         ;
+; regheap.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/regheap.v                                    ;         ;
+; rrr.vhd                          ; yes             ; Auto-Found Wizard-Generated File         ; D:/Github/asamplecpu/t6/rrr.vhd                                      ;         ;
+; db/altsyncram_5cu3.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_5cu3.tdf                       ;         ;
+; db/altsyncram_1or2.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/Github/asamplecpu/t6/db/altsyncram_1or2.tdf                       ;         ;
+; rrr.hex                          ; yes             ; Auto-Found Memory Initialization File    ; D:/Github/asamplecpu/t6/rrr.hex                                      ;         ;
+; diffone.v                        ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/diffone.v                                    ;         ;
+; outputone.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/Github/asamplecpu/t6/outputone.bdf                                ;         ;
+; d13.v                            ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/d13.v                                        ;         ;
+; d8.v                             ; yes             ; Auto-Found Verilog HDL File              ; D:/Github/asamplecpu/t6/d8.v                                         ;         ;
+; sld_hub.vhd                      ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd           ;         ;
+; sld_jtag_hub.vhd                 ; yes             ; Encrypted Megafunction                   ; d:/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd      ;         ;
++----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                   ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File                          ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------+
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |cpu|romCode:codeRom                         ; D:/GitHub/quartus/t6/romcode.vhd         ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd22 ; D:/GitHub/quartus/t6/lpm_constant0.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd23 ; D:/GitHub/quartus/t6/lpm_constant0.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd24 ; D:/GitHub/quartus/t6/lpm_constant0.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd25 ; D:/GitHub/quartus/t6/lpm_constant0.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant3:constAnd26 ; D:/GitHub/quartus/t6/lpm_constant3.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantor:constor27 ; D:/GitHub/quartus/t6/lpm_constantor.vhd  ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub23 ; D:/GitHub/quartus/t6/lpm_constant2.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub24 ; D:/GitHub/quartus/t6/lpm_constant2.vhd   ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantnor:inst71   ; D:/GitHub/quartus/t6/lpm_constantnor.vhd ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantxor:inst75   ; D:/GitHub/quartus/t6/lpm_constantxor.vhd ;
-; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantslt:inst77   ; D:/GitHub/quartus/t6/lpm_constantslt.vhd ;
-; Altera ; RAM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |cpu|rrr:inst16                              ; D:/GitHub/quartus/t6/rrr.vhd             ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                      ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+---------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File                             ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+---------------------------------------------+
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |cpu|romCode:codeRom                         ; D:/Github/asamplecpu/t6/romcode.vhd         ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd22 ; D:/Github/asamplecpu/t6/lpm_constant0.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd23 ; D:/Github/asamplecpu/t6/lpm_constant0.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd24 ; D:/Github/asamplecpu/t6/lpm_constant0.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant0:constAdd25 ; D:/Github/asamplecpu/t6/lpm_constant0.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant3:constAnd26 ; D:/Github/asamplecpu/t6/lpm_constant3.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantor:constor27 ; D:/Github/asamplecpu/t6/lpm_constantor.vhd  ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub23 ; D:/Github/asamplecpu/t6/lpm_constant2.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constant2:constSub24 ; D:/Github/asamplecpu/t6/lpm_constant2.vhd   ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantnor:inst71   ; D:/Github/asamplecpu/t6/lpm_constantnor.vhd ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantxor:inst75   ; D:/Github/asamplecpu/t6/lpm_constantxor.vhd ;
+; Altera ; LPM_CONSTANT ; 13.1    ; N/A          ; N/A          ; |cpu|hardCode:inst8|lpm_constantslt:inst77   ; D:/Github/asamplecpu/t6/lpm_constantslt.vhd ;
+; Altera ; RAM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |cpu|rrr:inst16                              ; D:/Github/asamplecpu/t6/rrr.vhd             ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------------------------------------+
-; Partition Status Summary                                               ;
-+--------------------------------+-------------+-------------------------+
-; Partition Name                 ; Synthesized ; Reason                  ;
-+--------------------------------+-------------+-------------------------+
-; Top                            ; yes         ; Dependent files changed ;
-; sld_signaltap:auto_signaltap_0 ; no          ; No relevant changes     ;
-; sld_hub:auto_hub               ; yes         ; Parameters changed      ;
-+--------------------------------+-------------+-------------------------+
++------------------------------------------------------+
+; Partition Status Summary                             ;
++------------------+-------------+---------------------+
+; Partition Name   ; Synthesized ; Reason              ;
++------------------+-------------+---------------------+
+; Top              ; no          ; No relevant changes ;
+; sld_hub:auto_hub ; no          ; No relevant changes ;
++------------------+-------------+---------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -673,8 +638,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                     ;
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                     ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                   ;
-; LPM_WIDTH              ; 16           ; Untyped                          ;
-; LPM_SIZE               ; 4            ; Untyped                          ;
+; LPM_WIDTH              ; 16           ; Signed Integer                   ;
+; LPM_SIZE               ; 4            ; Signed Integer                   ;
 ; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH               ;
 ; CARRY_CHAIN            ; MANUAL       ; Untyped                          ;
 ; CASCADE_CHAIN          ; MANUAL       ; Untyped                          ;
@@ -702,8 +667,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                      ;
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                      ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                    ;
-; LPM_WIDTH              ; 6            ; Untyped                           ;
-; LPM_SIZE               ; 8            ; Untyped                           ;
+; LPM_WIDTH              ; 6            ; Signed Integer                    ;
+; LPM_SIZE               ; 8            ; Signed Integer                    ;
 ; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                ;
 ; CARRY_CHAIN            ; MANUAL       ; Untyped                           ;
 ; CASCADE_CHAIN          ; MANUAL       ; Untyped                           ;
@@ -717,7 +682,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -727,7 +692,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -750,7 +715,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -773,7 +738,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -796,7 +761,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -819,7 +784,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -842,7 +807,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -865,7 +830,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 6     ; Untyped                                          ;
+; WIDTH          ; 6     ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -888,7 +853,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                         ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -902,8 +867,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                      ;
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                      ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                    ;
-; LPM_WIDTH              ; 16           ; Untyped                           ;
-; LPM_SIZE               ; 8            ; Untyped                           ;
+; LPM_WIDTH              ; 16           ; Signed Integer                    ;
+; LPM_SIZE               ; 8            ; Signed Integer                    ;
 ; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                ;
 ; CARRY_CHAIN            ; MANUAL       ; Untyped                           ;
 ; CASCADE_CHAIN          ; MANUAL       ; Untyped                           ;
@@ -917,7 +882,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -940,7 +905,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1023,7 +988,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                         ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1037,8 +1002,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                      ;
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                      ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                    ;
-; LPM_WIDTH              ; 16           ; Untyped                           ;
-; LPM_SIZE               ; 8            ; Untyped                           ;
+; LPM_WIDTH              ; 16           ; Signed Integer                    ;
+; LPM_SIZE               ; 8            ; Signed Integer                    ;
 ; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                ;
 ; CARRY_CHAIN            ; MANUAL       ; Untyped                           ;
 ; CASCADE_CHAIN          ; MANUAL       ; Untyped                           ;
@@ -1052,7 +1017,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1075,7 +1040,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1098,7 +1063,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------+
 ; Parameter Name ; Value ; Type                                            ;
 +----------------+-------+-------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                         ;
+; WIDTH          ; 16    ; Signed Integer                                  ;
 +----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1112,8 +1077,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                      ;
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                      ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                    ;
-; LPM_WIDTH              ; 16           ; Untyped                           ;
-; LPM_SIZE               ; 8            ; Untyped                           ;
+; LPM_WIDTH              ; 16           ; Signed Integer                    ;
+; LPM_SIZE               ; 8            ; Signed Integer                    ;
 ; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                ;
 ; CARRY_CHAIN            ; MANUAL       ; Untyped                           ;
 ; CASCADE_CHAIN          ; MANUAL       ; Untyped                           ;
@@ -1137,7 +1102,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1147,7 +1112,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------+
 ; Parameter Name ; Value ; Type                                             ;
 +----------------+-------+--------------------------------------------------+
-; WIDTH          ; 16    ; Untyped                                          ;
+; WIDTH          ; 16    ; Signed Integer                                   ;
 +----------------+-------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1417,7 +1382,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; myand.v                                       ; Project Directory  ; work    ; 4622b550661c78fc429816b2d577d378 ;
 ; outputone.bdf                                 ; Project Directory  ; work    ; e93205c19344d45555316588730731ef ;
 ; regheap.v                                     ; Project Directory  ; work    ; b59c5665490ec4ecded00aa2b041b787 ;
-; romCode.hex                                   ; Project Directory  ; work    ; 3cf48f09f178271f677ddc2b74c038d4 ;
+; romCode.hex                                   ; Project Directory  ; work    ; 7e9e4f21bfec9ce40ff651b93a6a819a ;
 ; romcode.vhd                                   ; Project Directory  ; work    ; 12c9168bd9d04bb997752102513f43f0 ;
 ; rrr.hex                                       ; Project Directory  ; work    ; 653e40aeeab91ccd6031e50d44dde467 ;
 ; rrr.vhd                                       ; Project Directory  ; work    ; 960ca742f7c5975d5c4fc0dfcaf0ad2e ;
@@ -1426,73 +1391,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------------------------------+--------------------+---------+----------------------------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0              ;
-+-------------------------------------------------+---------------------------+----------------+
-; Parameter Name                                  ; Value                     ; Type           ;
-+-------------------------------------------------+---------------------------+----------------+
-; lpm_type                                        ; sld_signaltap             ; String         ;
-; sld_node_info                                   ; 805334528                 ; Untyped        ;
-; SLD_IP_VERSION                                  ; 6                         ; Signed Integer ;
-; SLD_IP_MINOR_VERSION                            ; 0                         ; Signed Integer ;
-; SLD_COMMON_IP_VERSION                           ; 0                         ; Signed Integer ;
-; sld_data_bits                                   ; 65                        ; Untyped        ;
-; sld_trigger_bits                                ; 1                         ; Untyped        ;
-; SLD_NODE_CRC_BITS                               ; 32                        ; Signed Integer ;
-; sld_node_crc_hiword                             ; 32649                     ; Untyped        ;
-; sld_node_crc_loword                             ; 18048                     ; Untyped        ;
-; SLD_INCREMENTAL_ROUTING                         ; 0                         ; Signed Integer ;
-; sld_sample_depth                                ; 256                       ; Untyped        ;
-; sld_segment_size                                ; 256                       ; Untyped        ;
-; sld_ram_block_type                              ; AUTO                      ; Untyped        ;
-; sld_state_bits                                  ; 11                        ; Untyped        ;
-; sld_buffer_full_stop                            ; 1                         ; Untyped        ;
-; SLD_MEM_ADDRESS_BITS                            ; 7                         ; Signed Integer ;
-; SLD_DATA_BIT_CNTR_BITS                          ; 4                         ; Signed Integer ;
-; sld_trigger_level                               ; 1                         ; Untyped        ;
-; sld_trigger_in_enabled                          ; 0                         ; Untyped        ;
-; SLD_HPS_TRIGGER_IN_ENABLED                      ; 0                         ; Signed Integer ;
-; SLD_HPS_TRIGGER_OUT_ENABLED                     ; 0                         ; Signed Integer ;
-; SLD_HPS_EVENT_ENABLED                           ; 0                         ; Signed Integer ;
-; SLD_HPS_EVENT_ID                                ; 0                         ; Signed Integer ;
-; sld_advanced_trigger_entity                     ; basic,1,                  ; Untyped        ;
-; sld_trigger_level_pipeline                      ; 1                         ; Untyped        ;
-; sld_enable_advanced_trigger                     ; 0                         ; Untyped        ;
-; SLD_ADVANCED_TRIGGER_1                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_2                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_3                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_4                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_5                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_6                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_7                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_8                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_9                          ; NONE                      ; String         ;
-; SLD_ADVANCED_TRIGGER_10                         ; NONE                      ; String         ;
-; sld_inversion_mask_length                       ; 25                        ; Untyped        ;
-; sld_inversion_mask                              ; 0000000000000000000000000 ; Untyped        ;
-; sld_power_up_trigger                            ; 0                         ; Untyped        ;
-; SLD_STATE_FLOW_MGR_ENTITY                       ; state_flow_mgr_entity.vhd ; String         ;
-; sld_state_flow_use_generated                    ; 0                         ; Untyped        ;
-; sld_current_resource_width                      ; 1                         ; Untyped        ;
-; sld_attribute_mem_mode                          ; OFF                       ; Untyped        ;
-; SLD_STORAGE_QUALIFIER_BITS                      ; 1                         ; Signed Integer ;
-; SLD_STORAGE_QUALIFIER_GAP_RECORD                ; 0                         ; Signed Integer ;
-; SLD_STORAGE_QUALIFIER_MODE                      ; OFF                       ; String         ;
-; SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION ; 0                         ; Signed Integer ;
-; sld_storage_qualifier_inversion_mask_length     ; 0                         ; Untyped        ;
-; SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY ; basic                     ; String         ;
-; SLD_STORAGE_QUALIFIER_PIPELINE                  ; 0                         ; Signed Integer ;
-+-------------------------------------------------+---------------------------+----------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition "sld_hub:auto_hub" Resource Utilization by Entity                                                                                                                                                                                                                    ;
++------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                           ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                          ; Library Name ;
++------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
+; |cpu                                                 ; 157 (0)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                         ; work         ;
+;    |sld_hub:auto_hub|                                ; 157 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub                                                                        ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst| ; 156 (118)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                           ; work         ;
+;          |sld_rom_sr:hub_info_reg|                   ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg   ; work         ;
+;          |sld_shadow_jsm:shadow_jsm|                 ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm ; work         ;
++------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; SignalTap II Logic Analyzer Settings                                                                                                                                                                                                                                    ;
-+----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
-; Instance Index ; Instance Name    ; Trigger Input Width ; Data Input Width ; Sample Depth ; Segments ; Storage Qualifier Type ; Trigger Flow Control ; Trigger Conditions ; Advanced Trigger Conditions ; Trigger In Used ; Trigger Out Used ; Power-Up Trigger Enabled ;
-+----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
-; 0              ; auto_signaltap_0 ; 1                   ; 65               ; 256          ; 1        ; continuous             ; sequential           ; 1                  ; 0                           ; no              ; no               ; no                       ;
-+----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|hub_minor_ver_reg[1]                    ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|mixer_addr_reg[0]                       ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irf_reg[2][0]                           ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irf_reg[1][0]                           ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|word_counter[4] ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[2][1]                    ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                    ;
+; 8:1                ; 5 bits    ; 25 LEs        ; 10 LEs               ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[3]                             ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 64 LEs               ; 24 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                      ;
+; 28:1               ; 4 bits    ; 72 LEs        ; 36 LEs               ; 36 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1505,25 +1433,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------+-------+-------+------------+--------------------------------------------------------------------------------+
 
 
-+---------------------------------+
-; Elapsed Time Per Partition      ;
-+------------------+--------------+
-; Partition Name   ; Elapsed Time ;
-+------------------+--------------+
-; Top              ; 00:00:07     ;
-; sld_hub:auto_hub ; 00:00:07     ;
-+------------------+--------------+
-
-
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Tue Nov 12 21:39:26 2019
+    Info: Processing started: Wed Nov 13 19:33:52 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
-Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file backup.bdf
     Info (12023): Found entity 1: backup
 Info (12021): Found 2 design units, including 1 entities, in source file lpm_constant0.vhd
@@ -1963,88 +1881,21 @@ Info (12128): Elaborating entity "d13" for hierarchy "d13:inst17"
 Warning (12125): Using design file d8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: d8
 Info (12128): Elaborating entity "d8" for hierarchy "d8:inst36"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ou14.tdf
-    Info (12023): Found entity 1: altsyncram_ou14
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_usc.tdf
-    Info (12023): Found entity 1: mux_usc
-Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dvf.tdf
-    Info (12023): Found entity 1: decode_dvf
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_ogi.tdf
-    Info (12023): Found entity 1: cntr_ogi
-Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_tgc.tdf
-    Info (12023): Found entity 1: cmpr_tgc
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_l6j.tdf
-    Info (12023): Found entity 1: cntr_l6j
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_hgi.tdf
-    Info (12023): Found entity 1: cntr_hgi
-Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_rgc.tdf
-    Info (12023): Found entity 1: cmpr_rgc
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_23j.tdf
-    Info (12023): Found entity 1: cntr_23j
-Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_ngc.tdf
-    Info (12023): Found entity 1: cmpr_ngc
-Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
-Info (12206): 2 design partitions require synthesis
-    Info (12211): Partition "Top" requires synthesis because there were changes to its dependent source files
-    Info (12217): Partition "sld_hub:auto_hub" requires synthesis because there were changes made to the parameters on the partition's root instance
-Info (12207): 1 design partition does not require synthesis
-    Info (12229): Partition "sld_signaltap:auto_signaltap_0" does not require synthesis because there were no relevant design changes
-Info (281037): Using 2 processors to synthesize 2 partitions in parallel
-Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Tue Nov 12 21:39:38 2019
-Info: Command: quartus_map --parallel=1 --helper=0 --helper_type=user_partition --partition=Top cpu -c cpu
-Info (13014): Ignored 85 buffer(s)
-    Info (13019): Ignored 85 SOFT buffer(s)
-Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276004): RAM logic "regheap:inst10|R" is uninferred due to inappropriate RAM size
-Info (281020): Starting Logic Optimization and Technology Mapping for Top Partition
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "microCode[15]" is stuck at GND
-Info (286031): Timing-Driven Synthesis is running on partition "Top"
-Info (21057): Implemented 1504 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 32 input pins
-    Info (21059): Implemented 159 output pins
-    Info (21061): Implemented 1289 logic cells
-    Info (21064): Implemented 24 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4621 megabytes
-    Info: Processing ended: Tue Nov 12 21:39:44 2019
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:08
-Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Tue Nov 12 21:39:37 2019
-Info: Command: quartus_map --parallel=1 --helper=2 --helper_type=user_partition --partition=sld_hub:auto_hub cpu -c cpu
-Info (281019): Starting Logic Optimization and Technology Mapping for Partition sld_hub:auto_hub
-Info (13000): Registers with preset signals will power-up high
-Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
-Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
-Info (21057): Implemented 348 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 45 input pins
-    Info (21059): Implemented 61 output pins
-    Info (21061): Implemented 242 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4621 megabytes
-    Info: Processing ended: Tue Nov 12 21:39:39 2019
+Info (12206): 0 design partitions require synthesis
+Info (12208): 2 design partitions do not require synthesis
+    Info (12229): Partition "Top" does not require synthesis because there were no relevant design changes
+    Info (12229): Partition "sld_hub:auto_hub" does not require synthesis because there were no relevant design changes
+Info (144001): Generated suppressed messages file D:/Github/asamplecpu/t6/cpu.map.smsg
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 48 warnings
+    Info: Peak virtual memory: 4708 megabytes
+    Info: Processing ended: Wed Nov 13 19:33:54 2019
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:04
-Info (281038): Finished parallel synthesis of all partitions
-Info (144001): Generated suppressed messages file D:/GitHub/quartus/t6/cpu.map.smsg
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 52 warnings
-    Info: Peak virtual memory: 4722 megabytes
-    Info: Processing ended: Tue Nov 12 21:39:45 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/GitHub/quartus/t6/cpu.map.smsg.
+The suppressed messages can be found in D:/Github/asamplecpu/t6/cpu.map.smsg.
 
 
