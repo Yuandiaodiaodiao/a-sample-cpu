@@ -3247,11 +3247,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1184 952)
-	(pt 1096 952)
-	(bus)
-)
-(connector
 	(pt 1240 1128)
 	(pt 1240 1136)
 )
@@ -4573,6 +4568,11 @@ applicable agreement for further details.
 	(text "bnez[11]" (rect 962 5720 1003 5732)(font "Arial" ))
 	(pt 960 5736)
 	(pt 1008 5736)
+)
+(connector
+	(pt 1184 952)
+	(pt 1096 952)
+	(bus)
 )
 (junction (pt 1112 536))
 (junction (pt 1496 576))

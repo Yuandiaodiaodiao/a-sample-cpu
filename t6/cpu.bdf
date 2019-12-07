@@ -1827,7 +1827,7 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 176 96))
 	)
-	(annotation_block (parameter)(rect 2136 120 2168 208))
+	(annotation_block (parameter)(rect 2016 112 2184 192))
 )
 (symbol
 	(rect 1184 288 1344 432)
@@ -1982,6 +1982,108 @@ applicable agreement for further details.
 		(line (pt 16 64)(pt 16 16))
 		(line (pt 128 64)(pt 128 16))
 		(circle (rect 8 36 16 44))
+	)
+)
+(symbol
+	(rect 3344 72 3488 152)
+	(text "74273b" (rect 50 0 99 16)(font "Arial" (font_size 10)))
+	(text "inst4" (rect 3 69 26 77)(font "Consolas" (font_size 5)))
+	(port
+		(pt 0 56)
+		(input)
+		(text "CLK" (rect 20 48 43 62)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 20 48 43 62)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "D[8..1]" (rect 20 16 56 30)(font "Arial" (font_size 8)))
+		(text "D[8..1]" (rect 20 16 56 30)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "CLRN" (rect 20 32 51 46)(font "Arial" (font_size 8)))
+		(text "CLRN" (rect 20 32 51 46)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 8 40))
+	)
+	(port
+		(pt 144 40)
+		(output)
+		(text "Q[8..1]" (rect 92 32 129 46)(font "Arial" (font_size 8)))
+		(text "Q[8..1]" (rect 92 32 129 46)(font "Arial" (font_size 8)))
+		(line (pt 128 40)(pt 144 40))
+	)
+	(drawing
+		(text "OCTAL D-FF" (rect 41 65 112 79)(font "Arial" (font_size 8)))
+		(line (pt 16 16)(pt 128 16))
+		(line (pt 16 64)(pt 128 64))
+		(line (pt 16 64)(pt 16 16))
+		(line (pt 128 64)(pt 128 16))
+		(circle (rect 8 36 16 44))
+	)
+)
+(symbol
+	(rect 3344 -56 3520 56)
+	(text "DDreg" (rect 5 0 36 12)(font "Arial" ))
+	(text "DDreg5" (rect 8 96 36 104)(font "Consolas" (font_size 5)))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 21 12)(font "Arial" ))
+		(text "CLK" (rect 21 27 42 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLR" (rect 0 0 22 12)(font "Arial" ))
+		(text "CLR" (rect 21 43 43 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "data[31..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "data[31..0]" (rect 21 59 74 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 176 32)
+		(output)
+		(text "ans[31..0]" (rect 0 0 49 12)(font "Arial" ))
+		(text "ans[31..0]" (rect 114 27 163 39)(font "Arial" ))
+		(line (pt 176 32)(pt 160 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 160 96))
+	)
+)
+(symbol
+	(rect 3248 -160 3296 -128)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst12" (rect 3 21 31 29)(font "Consolas" (font_size 5)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
 	)
 )
 (connector
@@ -2527,37 +2629,12 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "clr" (rect 2896 -8 2910 0)(font "Consolas" (font_size 5)))
-	(pt 2904 0)
-	(pt 2896 0)
-)
-(connector
-	(pt 3136 -16)
-	(pt 3136 96)
-	(bus)
-)
-(connector
-	(text "DD4[31..0]" (rect 3088 -24 3135 -16)(font "Consolas" (font_size 5)))
-	(pt 3080 -16)
-	(pt 3136 -16)
-	(bus)
-)
-(connector
-	(pt 3136 -16)
-	(pt 3312 -16)
-	(bus)
-)
-(connector
 	(pt -88 -200)
 	(pt 136 -200)
 )
 (connector
 	(pt 136 -200)
 	(pt 344 -200)
-)
-(connector
-	(pt 2584 -200)
-	(pt 2856 -200)
 )
 (connector
 	(pt 2888 16)
@@ -2582,14 +2659,6 @@ applicable agreement for further details.
 (connector
 	(pt 2856 192)
 	(pt 2856 272)
-)
-(connector
-	(pt 2856 -200)
-	(pt 2856 -16)
-)
-(connector
-	(pt 2856 -16)
-	(pt 2856 192)
 )
 (connector
 	(pt 2584 -144)
@@ -2653,10 +2722,6 @@ applicable agreement for further details.
 (connector
 	(pt 2856 192)
 	(pt 2912 192)
-)
-(connector
-	(pt 2856 -16)
-	(pt 2904 -16)
 )
 (connector
 	(pt 2584 112)
@@ -2752,17 +2817,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "DD4[23..21]" (rect 1122 200 1173 208)(font "Consolas" (font_size 5)))
-	(pt 1176 208)
-	(pt 1088 208)
-	(bus)
-)
-(connector
-	(text "DD4[12]" (rect 1122 232 1155 240)(font "Consolas" (font_size 5)))
-	(pt 1088 240)
-	(pt 1176 240)
-)
-(connector
 	(text "pick[7..5]" (rect 1122 312 1169 320)(font "Consolas" (font_size 5)))
 	(pt 1184 320)
 	(pt 1112 320)
@@ -2832,21 +2886,6 @@ applicable agreement for further details.
 (connector
 	(pt 2232 240)
 	(pt 2232 160)
-	(bus)
-)
-(connector
-	(pt 2472 16)
-	(pt 2536 16)
-	(bus)
-)
-(connector
-	(pt 2536 16)
-	(pt 2888 16)
-	(bus)
-)
-(connector
-	(pt 2888 16)
-	(pt 2904 16)
 	(bus)
 )
 (connector
@@ -2940,78 +2979,6 @@ applicable agreement for further details.
 	(pt 1152 384)
 )
 (connector
-	(pt 2520 400)
-	(pt 1760 400)
-	(bus)
-)
-(connector
-	(pt 1760 304)
-	(pt 1760 400)
-	(bus)
-)
-(connector
-	(pt 1960 160)
-	(pt 1960 296)
-	(bus)
-)
-(connector
-	(pt 1968 144)
-	(pt 1968 280)
-	(bus)
-)
-(connector
-	(pt 1976 128)
-	(pt 1976 264)
-	(bus)
-)
-(connector
-	(pt 1984 16)
-	(pt 1984 248)
-	(bus)
-)
-(connector
-	(text "DD2[7..2]" (rect 1984 232 2032 244)(font "Arial" ))
-	(pt 1984 248)
-	(pt 2016 248)
-	(bus)
-)
-(connector
-	(pt 1976 264)
-	(pt 2016 264)
-	(bus)
-)
-(connector
-	(pt 1968 280)
-	(pt 2016 280)
-	(bus)
-)
-(connector
-	(pt 1960 296)
-	(pt 2016 296)
-	(bus)
-)
-(connector
-	(text "chooseC[7..0]" (rect 1660 152 1721 160)(font "Consolas" (font_size 5)))
-	(pt 1616 160)
-	(pt 1960 160)
-	(bus)
-)
-(connector
-	(pt 1960 160)
-	(pt 2232 160)
-	(bus)
-)
-(connector
-	(pt 1840 16)
-	(pt 1984 16)
-	(bus)
-)
-(connector
-	(pt 1984 16)
-	(pt 2224 16)
-	(bus)
-)
-(connector
 	(pt 1560 440)
 	(pt 2224 440)
 	(bus)
@@ -3019,11 +2986,6 @@ applicable agreement for further details.
 (connector
 	(pt 1384 304)
 	(pt 1376 304)
-	(bus)
-)
-(connector
-	(pt 2208 248)
-	(pt 2216 248)
 	(bus)
 )
 (connector
@@ -3057,28 +3019,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3312 -16)
-	(pt 3312 488)
-	(bus)
-)
-(connector
 	(pt 2568 248)
 	(pt 2568 488)
-	(bus)
-)
-(connector
-	(pt 3280 96)
-	(pt 3296 96)
-	(bus)
-)
-(connector
-	(pt 3296 96)
-	(pt 3296 472)
-	(bus)
-)
-(connector
-	(pt 2216 504)
-	(pt 2216 248)
 	(bus)
 )
 (connector
@@ -3194,12 +3136,6 @@ applicable agreement for further details.
 	(pt 1152 608)
 )
 (connector
-	(text "writeBack[7..0]" (rect 2834 464 2904 472)(font "Consolas" (font_size 5)))
-	(pt 2552 472)
-	(pt 3296 472)
-	(bus)
-)
-(connector
 	(pt 2640 232)
 	(pt 2552 232)
 	(bus)
@@ -3242,46 +3178,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 640)
 	(pt -144 640)
-	(bus)
-)
-(connector
-	(pt 1088 208)
-	(pt 1088 240)
-	(bus)
-)
-(connector
-	(pt 1088 240)
-	(pt 1088 488)
-	(bus)
-)
-(connector
-	(pt 1088 488)
-	(pt 2568 488)
-	(bus)
-)
-(connector
-	(pt 2568 488)
-	(pt 3312 488)
-	(bus)
-)
-(connector
-	(pt 1176 224)
-	(pt 1104 224)
-	(bus)
-)
-(connector
-	(pt 1104 224)
-	(pt 1104 472)
-	(bus)
-)
-(connector
-	(pt 1104 472)
-	(pt 1376 472)
-	(bus)
-)
-(connector
-	(pt 1376 472)
-	(pt 2552 472)
 	(bus)
 )
 (connector
@@ -3351,6 +3247,69 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(text "diffA[1..0]" (rect 3852 912 3903 920)(font "Consolas" (font_size 5)))
+	(pt 3928 920)
+	(pt 3760 920)
+	(bus)
+)
+(connector
+	(text "diffB[1..0]" (rect 3805 928 3856 936)(font "Consolas" (font_size 5)))
+	(pt 3928 936)
+	(pt 3792 936)
+	(bus)
+)
+(connector
+	(text "pcreg[7..0]" (rect 3848 -8 3899 0)(font "Consolas" (font_size 5)))
+	(pt 3952 0)
+	(pt 3824 0)
+	(bus)
+)
+(connector
+	(text "code[15..0]" (rect 3852 -32 3903 -24)(font "Consolas" (font_size 5)))
+	(pt 3952 -24)
+	(pt 3824 -24)
+	(bus)
+)
+(connector
+	(text "aluOutput[7..0]" (rect 2446 104 2516 112)(font "Consolas" (font_size 5)))
+	(pt 2520 112)
+	(pt 2408 112)
+	(bus)
+)
+(connector
+	(text "DD2[7..2]" (rect 2256 96 2298 104)(font "Consolas" (font_size 5)))
+	(pt 2224 112)
+	(pt 2280 112)
+	(bus)
+)
+(connector
+	(pt 2240 160)
+	(pt 2280 160)
+)
+(connector
+	(text "clr" (rect 2263 168 2277 176)(font "Consolas" (font_size 5)))
+	(pt 2256 176)
+	(pt 2280 176)
+)
+(connector
+	(pt 2224 16)
+	(pt 2224 112)
+	(bus)
+)
+(connector
+	(pt 2224 112)
+	(pt 2224 440)
+	(bus)
+)
+(connector
+	(pt 2240 -16)
+	(pt 2240 160)
+)
+(connector
+	(pt 2240 160)
+	(pt 2240 272)
+)
+(connector
 	(text "romMQ[15..0]" (rect 898 240 954 248)(font "Consolas" (font_size 5)))
 	(pt 992 248)
 	(pt 888 248)
@@ -3378,55 +3337,65 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "aluOutput[7..0]" (rect 2446 104 2516 112)(font "Consolas" (font_size 5)))
-	(pt 2520 112)
-	(pt 2408 112)
+	(pt 1960 160)
+	(pt 1960 296)
 	(bus)
 )
 (connector
-	(text "DD2[7..2]" (rect 2256 96 2298 104)(font "Consolas" (font_size 5)))
-	(pt 2224 112)
-	(pt 2280 112)
-	(bus)
-)
-(connector
-	(pt 2240 160)
-	(pt 2280 160)
-)
-(connector
-	(text "clr" (rect 2263 168 2277 176)(font "Consolas" (font_size 5)))
-	(pt 2256 176)
-	(pt 2280 176)
-)
-(connector
-	(pt 2520 80)
-	(pt 2520 112)
-	(bus)
-)
-(connector
-	(pt 2520 112)
-	(pt 2520 400)
-	(bus)
-)
-(connector
-	(pt 2224 16)
-	(pt 2224 112)
-	(bus)
-)
-(connector
-	(pt 2224 112)
-	(pt 2224 440)
-	(bus)
-)
-(connector
-	(text "chooseA[7..0]" (rect 1666 112 1727 120)(font "Consolas" (font_size 5)))
-	(pt 1616 128)
-	(pt 1976 128)
+	(pt 1968 144)
+	(pt 1968 280)
 	(bus)
 )
 (connector
 	(pt 1976 128)
-	(pt 2280 128)
+	(pt 1976 264)
+	(bus)
+)
+(connector
+	(pt 1984 16)
+	(pt 1984 248)
+	(bus)
+)
+(connector
+	(text "DD2[7..2]" (rect 1984 232 2032 244)(font "Arial" ))
+	(pt 1984 248)
+	(pt 2016 248)
+	(bus)
+)
+(connector
+	(pt 1976 264)
+	(pt 2016 264)
+	(bus)
+)
+(connector
+	(pt 1968 280)
+	(pt 2016 280)
+	(bus)
+)
+(connector
+	(pt 1960 296)
+	(pt 2016 296)
+	(bus)
+)
+(connector
+	(pt 2216 248)
+	(pt 2208 248)
+	(bus)
+)
+(connector
+	(pt 2216 504)
+	(pt 2216 248)
+	(bus)
+)
+(connector
+	(text "chooseC[7..0]" (rect 1660 152 1721 160)(font "Consolas" (font_size 5)))
+	(pt 1616 160)
+	(pt 1960 160)
+	(bus)
+)
+(connector
+	(pt 1960 160)
+	(pt 2232 160)
 	(bus)
 )
 (connector
@@ -3441,36 +3410,239 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2240 -16)
-	(pt 2240 160)
-)
-(connector
-	(pt 2240 160)
-	(pt 2240 272)
-)
-(connector
-	(text "diffA[1..0]" (rect 3852 912 3903 920)(font "Consolas" (font_size 5)))
-	(pt 3928 920)
-	(pt 3760 920)
+	(text "chooseA[7..0]" (rect 1666 112 1727 120)(font "Consolas" (font_size 5)))
+	(pt 1616 128)
+	(pt 1976 128)
 	(bus)
 )
 (connector
-	(text "diffB[1..0]" (rect 3805 928 3856 936)(font "Consolas" (font_size 5)))
-	(pt 3928 936)
-	(pt 3792 936)
+	(pt 1976 128)
+	(pt 2280 128)
 	(bus)
 )
 (connector
-	(text "pcreg[7..0]" (rect 3848 -8 3899 0)(font "Consolas" (font_size 5)))
-	(pt 3952 0)
-	(pt 3824 0)
+	(pt 1840 16)
+	(pt 1984 16)
 	(bus)
 )
 (connector
-	(text "code[15..0]" (rect 3852 -32 3903 -24)(font "Consolas" (font_size 5)))
-	(pt 3952 -24)
-	(pt 3824 -24)
+	(pt 1984 16)
+	(pt 2224 16)
 	(bus)
+)
+(connector
+	(pt 2472 16)
+	(pt 2536 16)
+	(bus)
+)
+(connector
+	(pt 3344 128)
+	(pt 3288 128)
+)
+(connector
+	(text "clr" (rect 2896 -8 2910 0)(font "Consolas" (font_size 5)))
+	(pt 2904 0)
+	(pt 2896 0)
+)
+(connector
+	(pt 2856 -16)
+	(pt 2904 -16)
+)
+(connector
+	(pt 2856 -200)
+	(pt 2856 -16)
+)
+(connector
+	(pt 2856 -16)
+	(pt 2856 192)
+)
+(connector
+	(pt 3136 -16)
+	(pt 3136 96)
+	(bus)
+)
+(connector
+	(pt 2536 16)
+	(pt 2888 16)
+	(bus)
+)
+(connector
+	(pt 2888 16)
+	(pt 2904 16)
+	(bus)
+)
+(connector
+	(pt 3160 8)
+	(pt 3160 -16)
+	(bus)
+)
+(connector
+	(text "DD4[31..0]" (rect 3088 -24 3135 -16)(font "Consolas" (font_size 5)))
+	(pt 3080 -16)
+	(pt 3136 -16)
+	(bus)
+)
+(connector
+	(pt 3136 -16)
+	(pt 3160 -16)
+	(bus)
+)
+(connector
+	(text "clr" (rect 3313 -16 3327 -8)(font "Consolas" (font_size 5)))
+	(pt 3344 -8)
+	(pt 3304 -8)
+)
+(connector
+	(pt 3288 128)
+	(pt 3288 -24)
+)
+(connector
+	(pt 3296 -24)
+	(pt 3296 -144)
+)
+(connector
+	(pt 3288 -24)
+	(pt 3296 -24)
+)
+(connector
+	(pt 3296 -24)
+	(pt 3344 -24)
+)
+(connector
+	(pt 2584 -200)
+	(pt 2856 -200)
+)
+(connector
+	(pt 2856 -200)
+	(pt 3240 -200)
+)
+(connector
+	(pt 3248 -144)
+	(pt 3240 -144)
+)
+(connector
+	(pt 3240 -144)
+	(pt 3240 -200)
+)
+(connector
+	(pt 3304 472)
+	(pt 3304 96)
+	(bus)
+)
+(connector
+	(pt 3280 96)
+	(pt 3304 96)
+	(bus)
+)
+(connector
+	(pt 3304 96)
+	(pt 3344 96)
+	(bus)
+)
+(connector
+	(pt 3344 8)
+	(pt 3320 8)
+	(bus)
+)
+(connector
+	(pt 3320 8)
+	(pt 3160 8)
+	(bus)
+)
+(connector
+	(pt 3528 -24)
+	(pt 3528 -16)
+	(bus)
+)
+(connector
+	(pt 3520 -24)
+	(pt 3528 -24)
+	(bus)
+)
+(connector
+	(text "DD5[31..0]" (rect 3531 -24 3578 -16)(font "Consolas" (font_size 5)))
+	(pt 3528 -16)
+	(pt 3696 -16)
+	(bus)
+)
+(connector
+	(text "wbBus[7..0]" (rect 3494 104 3545 112)(font "Consolas" (font_size 5)))
+	(pt 3488 112)
+	(pt 3512 112)
+	(bus)
+)
+(connector
+	(text "writeBack[7..0]" (rect 2834 464 2904 472)(font "Consolas" (font_size 5)))
+	(pt 2552 472)
+	(pt 3304 472)
+	(bus)
+)
+(connector
+	(pt 2520 400)
+	(pt 1760 400)
+	(bus)
+)
+(connector
+	(pt 1760 304)
+	(pt 1760 400)
+	(bus)
+)
+(connector
+	(pt 2520 80)
+	(pt 2520 112)
+	(bus)
+)
+(connector
+	(pt 2520 112)
+	(pt 2520 400)
+	(bus)
+)
+(connector
+	(pt 1104 472)
+	(pt 1376 472)
+	(bus)
+)
+(connector
+	(pt 1376 472)
+	(pt 2552 472)
+	(bus)
+)
+(connector
+	(text "wbBus[7..0]" (rect 1117 216 1168 224)(font "Consolas" (font_size 5)))
+	(pt 1176 224)
+	(pt 1104 224)
+	(bus)
+)
+(connector
+	(text "DD5[12]" (rect 1122 232 1155 240)(font "Consolas" (font_size 5)))
+	(pt 1176 240)
+	(pt 1088 240)
+)
+(connector
+	(text "DD5[23..21]" (rect 1122 200 1173 208)(font "Consolas" (font_size 5)))
+	(pt 1176 208)
+	(pt 1088 208)
+	(bus)
+)
+(connector
+	(pt 1088 488)
+	(pt 2568 488)
+	(bus)
+)
+(connector
+	(pt 2568 488)
+	(pt 3320 488)
+	(bus)
+)
+(connector
+	(pt 3320 8)
+	(pt 3320 488)
+	(bus)
+)
+(connector
+	(text "clr" (rect 3337 104 3351 112)(font "Consolas" (font_size 5)))
+	(pt 3344 112)
+	(pt 3336 112)
 )
 (junction (pt 1376 16))
 (junction (pt 1152 -200))
@@ -3504,7 +3676,6 @@ applicable agreement for further details.
 (junction (pt 2536 184))
 (junction (pt 2568 248))
 (junction (pt 1840 16))
-(junction (pt 1088 240))
 (junction (pt 1128 368))
 (junction (pt 2240 -200))
 (junction (pt 2224 16))
@@ -3522,3 +3693,7 @@ applicable agreement for further details.
 (junction (pt 1152 432))
 (junction (pt 504 472))
 (junction (pt 1560 368))
+(junction (pt 3296 -24))
+(junction (pt 2856 -200))
+(junction (pt 3304 96))
+(junction (pt 3320 8))
