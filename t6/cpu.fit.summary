@@ -1,15 +1,15 @@
-Fitter Status : Successful - Thu Nov 14 02:54:17 2019
+Fitter Status : Successful - Thu Nov 14 05:03:05 2019
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : cpu
 Top-level Entity Name : cpu
 Family : Cyclone IV E
 Device : EP4CE6E22C8
 Timing Models : Final
-Total logic elements : 1,339 / 6,272 ( 21 % )
-    Total combinational functions : 1,289 / 6,272 ( 21 % )
+Total logic elements : 1,337 / 6,272 ( 21 % )
+    Total combinational functions : 1,288 / 6,272 ( 21 % )
     Dedicated logic registers : 416 / 6,272 ( 7 % )
 Total registers : 416
-Total pins : 13 / 92 ( 14 % )
+Total pins : 19 / 92 ( 21 % )
 Total virtual pins : 114
 Total memory bits : 6,144 / 276,480 ( 2 % )
 Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )

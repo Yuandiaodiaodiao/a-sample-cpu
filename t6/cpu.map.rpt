@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cpu
-Thu Nov 14 02:54:09 2019
+Thu Nov 14 05:02:57 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -13,78 +13,80 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis IP Cores Summary
   7. Partition Status Summary
-  8. Partition for Top-Level Resource Utilization by Entity
-  9. User-Specified and Inferred Latches
- 10. Logic Cells Representing Combinational Loops
- 11. Registers Removed During Synthesis
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|altsyncram_7iu2:altsyncram1
- 14. Source assignments for rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|altsyncram_1or2:altsyncram1
- 15. Parameter Settings for User Entity Instance: swapit:inst5
- 16. Parameter Settings for User Entity Instance: romCode:codeRom|altsyncram:altsyncram_component
- 17. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst5
- 18. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst1
- 19. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst19
- 20. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst10
- 21. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst11
- 22. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd22|lpm_constant:LPM_CONSTANT_component
- 23. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst12
- 24. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub23|lpm_constant:LPM_CONSTANT_component
- 25. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst13
- 26. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant3:constAnd26|lpm_constant:LPM_CONSTANT_component
- 27. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst14
- 28. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantor:constor27|lpm_constant:LPM_CONSTANT_component
- 29. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst70
- 30. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantnor:inst71|lpm_constant:LPM_CONSTANT_component
- 31. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst73
- 32. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantxor:inst75|lpm_constant:LPM_CONSTANT_component
- 33. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst76
- 34. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantslt:inst77|lpm_constant:LPM_CONSTANT_component
- 35. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst2
- 36. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst66
- 37. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst15
- 38. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd23|lpm_constant:LPM_CONSTANT_component
- 39. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst16
- 40. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd24|lpm_constant:LPM_CONSTANT_component
- 41. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst53
- 42. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst56
- 43. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst59
- 44. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst62
- 45. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst65
- 46. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst69
- 47. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst3
- 48. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst32
- 49. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst34
- 50. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd25|lpm_constant:LPM_CONSTANT_component
- 51. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst37
- 52. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst80
- 53. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst4
- 54. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst40
- 55. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst42
- 56. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst45
- 57. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst48
- 58. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst83
- 59. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst86
- 60. Parameter Settings for User Entity Instance: alu_v2:inst1
- 61. Parameter Settings for User Entity Instance: chooser2:regchooser2
- 62. Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component
- 63. Parameter Settings for User Entity Instance: cyalu:inst21|chooser3:inst1
- 64. Parameter Settings for User Entity Instance: cyalu:inst21|jjcc:inst8
- 65. Parameter Settings for User Entity Instance: cyalu:inst21|alu_codex:inst
- 66. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst54
- 67. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst52
- 68. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst44
- 69. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst50
- 70. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst46
- 71. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst48
- 72. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst42
- 73. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst40
- 74. Partition Dependent Files
- 75. Partition "sld_hub:auto_hub" Resource Utilization by Entity
- 76. Multiplexer Restructuring Statistics (Restructuring Performed)
- 77. In-System Memory Content Editor Settings
- 78. Analysis & Synthesis Messages
- 79. Analysis & Synthesis Suppressed Messages
+  8. Dependent File Changes for Partition Top
+  9. Partition for Top-Level Resource Utilization by Entity
+ 10. User-Specified and Inferred Latches
+ 11. Logic Cells Representing Combinational Loops
+ 12. Registers Removed During Synthesis
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for romCode:codeRom|altsyncram:altsyncram_component|altsyncram_43u3:auto_generated|altsyncram_7iu2:altsyncram1
+ 15. Source assignments for rrr:inst16|altsyncram:altsyncram_component|altsyncram_5cu3:auto_generated|altsyncram_1or2:altsyncram1
+ 16. Parameter Settings for User Entity Instance: swapit:inst5
+ 17. Parameter Settings for User Entity Instance: romCode:codeRom|altsyncram:altsyncram_component
+ 18. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst5
+ 19. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst1
+ 20. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst19
+ 21. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst10
+ 22. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst11
+ 23. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd22|lpm_constant:LPM_CONSTANT_component
+ 24. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst12
+ 25. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant2:constSub23|lpm_constant:LPM_CONSTANT_component
+ 26. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst13
+ 27. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant3:constAnd26|lpm_constant:LPM_CONSTANT_component
+ 28. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst14
+ 29. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantor:constor27|lpm_constant:LPM_CONSTANT_component
+ 30. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst70
+ 31. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantnor:inst71|lpm_constant:LPM_CONSTANT_component
+ 32. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst73
+ 33. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantxor:inst75|lpm_constant:LPM_CONSTANT_component
+ 34. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst76
+ 35. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constantslt:inst77|lpm_constant:LPM_CONSTANT_component
+ 36. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst2
+ 37. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst66
+ 38. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst15
+ 39. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd23|lpm_constant:LPM_CONSTANT_component
+ 40. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst16
+ 41. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd24|lpm_constant:LPM_CONSTANT_component
+ 42. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst53
+ 43. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst56
+ 44. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst59
+ 45. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst62
+ 46. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst65
+ 47. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst69
+ 48. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst3
+ 49. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst32
+ 50. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst34
+ 51. Parameter Settings for User Entity Instance: hardCode:inst8|lpm_constant0:constAdd25|lpm_constant:LPM_CONSTANT_component
+ 52. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst37
+ 53. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst80
+ 54. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst4
+ 55. Parameter Settings for User Entity Instance: hardCode:inst8|LPM_OR:inst40
+ 56. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst42
+ 57. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst45
+ 58. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst48
+ 59. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst83
+ 60. Parameter Settings for User Entity Instance: hardCode:inst8|BUSMUX:inst86
+ 61. Parameter Settings for User Entity Instance: alu_v2:inst1
+ 62. Parameter Settings for User Entity Instance: chooser2:regchooser2
+ 63. Parameter Settings for User Entity Instance: rrr:inst16|altsyncram:altsyncram_component
+ 64. Parameter Settings for User Entity Instance: cyalu:inst21|chooser3:inst1
+ 65. Parameter Settings for User Entity Instance: cyalu:inst21|jjcc:inst8
+ 66. Parameter Settings for User Entity Instance: cyalu:inst21|alu_codex:inst
+ 67. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst54
+ 68. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst52
+ 69. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst44
+ 70. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst50
+ 71. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst46
+ 72. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst48
+ 73. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst42
+ 74. Parameter Settings for User Entity Instance: cyalu:inst21|mulH:inst7|BUSMUX:inst40
+ 75. Partition Dependent Files
+ 76. Partition "sld_hub:auto_hub" Resource Utilization by Entity
+ 77. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 78. In-System Memory Content Editor Settings
+ 79. Elapsed Time Per Partition
+ 80. Analysis & Synthesis Messages
+ 81. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -110,7 +112,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 14 02:54:08 2019       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 14 05:02:57 2019       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; cpu                                         ;
 ; Top-level Entity Name              ; cpu                                         ;
@@ -222,12 +224,13 @@ applicable agreement for further details.
 ; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Average used               ; 1.75        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processor 2            ;  75.0%      ;
+;     Processors 3-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -328,14 +331,23 @@ applicable agreement for further details.
 +--------+--------------+---------+--------------+--------------+----------------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------------------+
-; Partition Status Summary                             ;
-+------------------+-------------+---------------------+
-; Partition Name   ; Synthesized ; Reason              ;
-+------------------+-------------+---------------------+
-; Top              ; no          ; No relevant changes ;
-; sld_hub:auto_hub ; no          ; No relevant changes ;
-+------------------+-------------+---------------------+
++----------------------------------------------------------+
+; Partition Status Summary                                 ;
++------------------+-------------+-------------------------+
+; Partition Name   ; Synthesized ; Reason                  ;
++------------------+-------------+-------------------------+
+; Top              ; yes         ; Dependent files changed ;
+; sld_hub:auto_hub ; yes         ; Parameters changed      ;
++------------------+-------------+-------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Dependent File Changes for Partition Top                                                                                   ;
++-----------+-----------+-------------------+----------+----------------------------------+----------------------------------+
+; Hierarchy ; File Name ; Relative Location ; Change   ; Old                              ; New                              ;
++-----------+-----------+-------------------+----------+----------------------------------+----------------------------------+
+; |         ; cpu.bdf   ; Project Directory ; Checksum ; 3837869eddf63fff9c065fd234f31201 ; 8c3b3fe2bed464d749aacde52eb58924 ;
++-----------+-----------+-------------------+----------+----------------------------------+----------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1407,7 +1419,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; chooser2.v                                    ; Project Directory  ; work    ; 9e549a947900304f4c8bbeac850d122e ;
 ; chooser3.v                                    ; Project Directory  ; work    ; 160f7cd324807058bb2306e3201b9d0d ;
 ; clean.v                                       ; Project Directory  ; work    ; f5eaa71ff58fdd01d58476749a811cdd ;
-; cpu.bdf                                       ; Project Directory  ; work    ; 3837869eddf63fff9c065fd234f31201 ;
+; cpu.bdf                                       ; Project Directory  ; work    ; 8c3b3fe2bed464d749aacde52eb58924 ;
 ; cyalu.bdf                                     ; Project Directory  ; work    ; ec47f6d93585d69edc1daaf3b9421c78 ;
 ; d13.v                                         ; Project Directory  ; work    ; b4c827dc82cc2f0798f56a22eeb231c2 ;
 ; d8.v                                          ; Project Directory  ; work    ; 121996663764abb1fcae721678170afa ;
@@ -1451,9 +1463,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                           ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                          ; Library Name ;
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
-; |cpu                                                 ; 158 (0)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                         ; work         ;
-;    |sld_hub:auto_hub|                                ; 158 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub                                                                        ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst| ; 157 (119)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                           ; work         ;
+; |cpu                                                 ; 157 (0)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu                                                                                         ; work         ;
+;    |sld_hub:auto_hub|                                ; 157 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub                                                                        ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst| ; 156 (118)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                           ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                   ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg   ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                 ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm ; work         ;
 +------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------+--------------+
@@ -1473,7 +1485,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[2][1]                    ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                    ;
 ; 8:1                ; 5 bits    ; 25 LEs        ; 10 LEs               ; 15 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[3]                             ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 60 LEs               ; 28 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                      ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                      ;
 ; 28:1               ; 4 bits    ; 72 LEs        ; 36 LEs               ; 36 LEs                 ; Yes        ; |cpu|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
 
@@ -1488,13 +1500,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------------+-------+-------+------------+--------------------------------------------------------------------------------+
 
 
++---------------------------------+
+; Elapsed Time Per Partition      ;
++------------------+--------------+
+; Partition Name   ; Elapsed Time ;
++------------------+--------------+
+; Top              ; 00:00:05     ;
+; sld_hub:auto_hub ; 00:00:05     ;
++------------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Thu Nov 14 02:54:06 2019
+    Info: Processing started: Thu Nov 14 05:02:49 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Warning (12019): Can't analyze file -- file backup.bdf is missing
@@ -1948,16 +1970,77 @@ Warning (12125): Using design file d13.v, which is not specified as a design fil
     Info (12023): Found entity 1: d13
 Info (12128): Elaborating entity "d13" for hierarchy "d13:inst17"
 Info (12128): Elaborating entity "rgboutPUT" for hierarchy "rgboutPUT:inst11"
-Info (12206): 0 design partitions require synthesis
-Info (12208): 2 design partitions do not require synthesis
-    Info (12229): Partition "Top" does not require synthesis because there were no relevant design changes
-    Info (12229): Partition "sld_hub:auto_hub" does not require synthesis because there were no relevant design changes
+Info (12206): 2 design partitions require synthesis
+    Info (12211): Partition "Top" requires synthesis because there were changes to its dependent source files
+    Info (12217): Partition "sld_hub:auto_hub" requires synthesis because there were changes made to the parameters on the partition's root instance
+Info (12209): No design partitions will skip synthesis in the current incremental compilation
+Info (281037): Using 6 processors to synthesize 2 partitions in parallel
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Thu Nov 14 05:02:52 2019
+Info: Command: quartus_map --parallel=1 --helper=0 --helper_type=user_partition --partition=Top cpu -c cpu
+Info (13014): Ignored 85 buffer(s)
+    Info (13019): Ignored 85 SOFT buffer(s)
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276004): RAM logic "regheap:inst10|R" is uninferred due to inappropriate RAM size
+Info (281020): Starting Logic Optimization and Technology Mapping for Top Partition
+Warning (13012): Latch alu_v2:inst1|out[7] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[6] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[5] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[4] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13012): Latch alu_v2:inst1|out[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal DDreg:DDreg2|ans[3]
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "microCode[15]" is stuck at GND
+Info (286031): Timing-Driven Synthesis is running on partition "Top"
+Info (21057): Implemented 1520 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 32 input pins
+    Info (21059): Implemented 143 output pins
+    Info (21061): Implemented 1321 logic cells
+    Info (21064): Implemented 24 RAM segments
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 18 warnings
+    Info: Peak virtual memory: 4629 megabytes
+    Info: Processing ended: Thu Nov 14 05:02:56 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:06
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Thu Nov 14 05:02:52 2019
+Info: Command: quartus_map --parallel=1 --helper=1 --helper_type=user_partition --partition=sld_hub:auto_hub cpu -c cpu
+Info (281019): Starting Logic Optimization and Technology Mapping for Partition sld_hub:auto_hub
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
+Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
+Info (21057): Implemented 240 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 23 input pins
+    Info (21059): Implemented 40 output pins
+    Info (21061): Implemented 177 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4614 megabytes
+    Info: Processing ended: Thu Nov 14 05:02:53 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+Info (281038): Finished parallel synthesis of all partitions
 Info (144001): Generated suppressed messages file D:/Github/asamplecpu/t6/cpu.map.smsg
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 39 warnings
-    Info: Peak virtual memory: 4709 megabytes
-    Info: Processing ended: Thu Nov 14 02:54:09 2019
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 59 warnings
+    Info: Peak virtual memory: 4728 megabytes
+    Info: Processing ended: Thu Nov 14 05:02:57 2019
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +------------------------------------------+
