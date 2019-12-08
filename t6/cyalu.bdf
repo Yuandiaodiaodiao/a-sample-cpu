@@ -331,7 +331,7 @@ applicable agreement for further details.
 	(annotation_block (parameter)(rect 1432 296 1560 344))
 )
 (symbol
-	(rect 1560 592 1704 672)
+	(rect 1560 512 1704 592)
 	(text "74273b" (rect 50 0 99 16)(font "Arial" (font_size 10)))
 	(text "inst9" (rect 3 69 26 77)(font "Consolas" (font_size 5)))
 	(port
@@ -372,7 +372,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1560 488 1704 568)
+	(rect 1560 424 1704 504)
 	(text "74273b" (rect 50 0 99 16)(font "Arial" (font_size 10)))
 	(text "inst10" (rect 3 69 31 77)(font "Consolas" (font_size 5)))
 	(port
@@ -499,7 +499,7 @@ applicable agreement for further details.
 	(annotation_block (parameter)(rect 2040 184 2168 264))
 )
 (symbol
-	(rect 896 384 1008 480)
+	(rect 960 384 1072 480)
 	(text "mulH" (rect 5 0 23 8)(font "Consolas" (font_size 5)))
 	(text "inst7" (rect 8 84 31 92)(font "Consolas" (font_size 5)))
 	(port
@@ -535,7 +535,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 896 488 1072 568)
+	(rect 960 488 1136 568)
 	(text "div" (rect 5 0 20 12)(font "Arial" ))
 	(text "inst2" (rect 8 64 31 76)(font "Arial" ))
 	(port
@@ -710,36 +710,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1512 384)
-	(pt 1512 512)
-	(bus)
-)
-(connector
-	(pt 1512 512)
-	(pt 1560 512)
-	(bus)
-)
-(connector
-	(text "clr" (rect 1522 520 1536 528)(font "Consolas" (font_size 5)))
-	(pt 1560 528)
-	(pt 1512 528)
-)
-(connector
-	(pt 1488 400)
-	(pt 1488 616)
-	(bus)
-)
-(connector
-	(pt 1488 616)
-	(pt 1560 616)
-	(bus)
-)
-(connector
-	(text "clr" (rect 1516 624 1530 632)(font "Consolas" (font_size 5)))
-	(pt 1560 632)
-	(pt 1504 632)
-)
-(connector
 	(pt 1432 432)
 	(pt 1440 432)
 )
@@ -750,34 +720,6 @@ applicable agreement for further details.
 (connector
 	(pt 1440 536)
 	(pt 1360 536)
-)
-(connector
-	(pt 1560 544)
-	(pt 1464 544)
-)
-(connector
-	(pt 1560 648)
-	(pt 1464 648)
-)
-(connector
-	(pt 816 416)
-	(pt 896 416)
-	(bus)
-)
-(connector
-	(pt 768 432)
-	(pt 896 432)
-	(bus)
-)
-(connector
-	(pt 1008 416)
-	(pt 1256 416)
-	(bus)
-)
-(connector
-	(pt 1008 432)
-	(pt 1256 432)
-	(bus)
 )
 (connector
 	(text "clr" (rect 534 136 548 144)(font "Consolas" (font_size 5)))
@@ -819,16 +761,6 @@ applicable agreement for further details.
 (connector
 	(pt 192 248)
 	(pt 192 336)
-)
-(connector
-	(pt 1704 528)
-	(pt 1800 528)
-	(bus)
-)
-(connector
-	(pt 1704 632)
-	(pt 1824 632)
-	(bus)
 )
 (connector
 	(text "op[5..0]" (rect 499 88 536 96)(font "Consolas" (font_size 5)))
@@ -919,18 +851,6 @@ applicable agreement for further details.
 	(pt 1360 592)
 )
 (connector
-	(pt 1464 600)
-	(pt 1448 600)
-)
-(connector
-	(pt 1464 544)
-	(pt 1464 600)
-)
-(connector
-	(pt 1464 600)
-	(pt 1464 648)
-)
-(connector
 	(pt 1176 400)
 	(pt 1256 400)
 	(bus)
@@ -938,56 +858,6 @@ applicable agreement for further details.
 (connector
 	(pt 1776 416)
 	(pt 1432 416)
-	(bus)
-)
-(connector
-	(pt 816 520)
-	(pt 896 520)
-	(bus)
-)
-(connector
-	(pt 768 536)
-	(pt 896 536)
-	(bus)
-)
-(connector
-	(pt 816 144)
-	(pt 816 416)
-	(bus)
-)
-(connector
-	(pt 816 416)
-	(pt 816 520)
-	(bus)
-)
-(connector
-	(pt 768 232)
-	(pt 768 432)
-	(bus)
-)
-(connector
-	(pt 768 432)
-	(pt 768 536)
-	(bus)
-)
-(connector
-	(pt 1192 536)
-	(pt 1072 536)
-	(bus)
-)
-(connector
-	(pt 1192 464)
-	(pt 1192 536)
-	(bus)
-)
-(connector
-	(pt 1176 448)
-	(pt 1176 520)
-	(bus)
-)
-(connector
-	(pt 1176 520)
-	(pt 1072 520)
 	(bus)
 )
 (connector
@@ -1027,18 +897,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1800 528)
-	(pt 1800 328)
-	(bus)
-)
-(connector
 	(pt 1824 344)
 	(pt 1864 344)
-	(bus)
-)
-(connector
-	(pt 1824 632)
-	(pt 1824 344)
 	(bus)
 )
 (connector
@@ -1105,6 +965,146 @@ applicable agreement for further details.
 	(pt 1176 288)
 	(bus)
 )
+(connector
+	(pt 1256 416)
+	(pt 1072 416)
+	(bus)
+)
+(connector
+	(pt 1256 432)
+	(pt 1072 432)
+	(bus)
+)
+(connector
+	(pt 816 416)
+	(pt 960 416)
+	(bus)
+)
+(connector
+	(pt 768 432)
+	(pt 960 432)
+	(bus)
+)
+(connector
+	(pt 1192 536)
+	(pt 1136 536)
+	(bus)
+)
+(connector
+	(pt 1192 464)
+	(pt 1192 536)
+	(bus)
+)
+(connector
+	(pt 1176 448)
+	(pt 1176 520)
+	(bus)
+)
+(connector
+	(pt 1176 520)
+	(pt 1136 520)
+	(bus)
+)
+(connector
+	(pt 816 144)
+	(pt 816 416)
+	(bus)
+)
+(connector
+	(pt 816 416)
+	(pt 816 520)
+	(bus)
+)
+(connector
+	(pt 768 232)
+	(pt 768 432)
+	(bus)
+)
+(connector
+	(pt 768 432)
+	(pt 768 536)
+	(bus)
+)
+(connector
+	(pt 816 520)
+	(pt 960 520)
+	(bus)
+)
+(connector
+	(pt 768 536)
+	(pt 960 536)
+	(bus)
+)
+(connector
+	(pt 1512 384)
+	(pt 1512 448)
+	(bus)
+)
+(connector
+	(pt 1512 448)
+	(pt 1560 448)
+	(bus)
+)
+(connector
+	(text "clr" (rect 1522 456 1536 464)(font "Consolas" (font_size 5)))
+	(pt 1560 464)
+	(pt 1512 464)
+)
+(connector
+	(pt 1464 480)
+	(pt 1560 480)
+)
+(connector
+	(pt 1800 464)
+	(pt 1704 464)
+	(bus)
+)
+(connector
+	(pt 1800 328)
+	(pt 1800 464)
+	(bus)
+)
+(connector
+	(pt 1448 600)
+	(pt 1464 600)
+)
+(connector
+	(pt 1488 400)
+	(pt 1488 536)
+	(bus)
+)
+(connector
+	(pt 1488 536)
+	(pt 1560 536)
+	(bus)
+)
+(connector
+	(text "clr" (rect 1516 544 1530 552)(font "Consolas" (font_size 5)))
+	(pt 1560 552)
+	(pt 1504 552)
+)
+(connector
+	(pt 1824 552)
+	(pt 1704 552)
+	(bus)
+)
+(connector
+	(pt 1824 344)
+	(pt 1824 552)
+	(bus)
+)
+(connector
+	(pt 1464 568)
+	(pt 1560 568)
+)
+(connector
+	(pt 1464 480)
+	(pt 1464 568)
+)
+(connector
+	(pt 1464 568)
+	(pt 1464 600)
+)
 (junction (pt 192 504))
 (junction (pt 816 416))
 (junction (pt 768 432))
@@ -1114,4 +1114,4 @@ applicable agreement for further details.
 (junction (pt 192 440))
 (junction (pt 544 216))
 (junction (pt 584 128))
-(junction (pt 1464 600))
+(junction (pt 1464 568))
